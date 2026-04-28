@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ThML PUBLIC "-//CCEL/DTD Theological Markup Language//EN" "http://www.ccel.org/dtd/ThML10.dtd">
+<?xml-stylesheet type="text/xml"
+    href="http://www.ccel.org/ss/thml.html.xsl" ?>
+  <?xml-stylesheet type="text/xsl"
+    href="http://www.ccel.org/ss/thml.html.xsl" ?>
+<ThML>
+  <ThML.head>
+
+    <!-- Copyright Christian Classics Ethereal Library -->
+
+    <generalInfo>
+      <description />
+      <pubHistory />
+      <comments />
+    </generalInfo>
+
+    <printSourceInfo>
+      <published />
+    </printSourceInfo>
+
+    <electronicEdInfo>
+      <publisherID>ccel</publisherID>
+      <authorID>spurgeon</authorID>
+      <bookID>catechism</bookID>
+      <workID>catechism</workID>
+      <bkgID>puritan_catechism_(spurgeon)</bkgID>
+      <version>1.0</version>
+      <editorialComments />
+      <revisionHistory />
+      <status />
+
+      <DC>
+        <DC.Title>A Puritan Catechism</DC.Title>
+        <DC.Creator sub="Author" scheme="short-form">C. H. Spurgeon</DC.Creator>
+        <DC.Creator sub="Author" scheme="file-as">Spurgeon, Charles Haddon (1834-1892)</DC.Creator>
+ 
+        <DC.Publisher>Grand Rapids, MI: Christian Classics Ethereal Library</DC.Publisher>
+        <DC.Subject scheme="LCCN" />
+        <DC.Subject scheme="ccel">All;</DC.Subject>
+        <DC.Contributor sub="Digitizer" />
+        <DC.Date sub="Created">2013-04-06</DC.Date>
+        <DC.Type>Text.Monograph</DC.Type>
+        <DC.Format scheme="IMT">text/html</DC.Format>
+        <DC.Identifier scheme="URL">/ccel/spurgeon/catechism.html</DC.Identifier>
+        <DC.Identifier scheme="ISBN" />
+        <DC.Source />
+        <DC.Source scheme="URL" />
+        <DC.Language scheme="ISO639-3">eng</DC.Language>
+        <DC.Rights>Public Domain</DC.Rights>
+      </DC>
+
+    </electronicEdInfo>
+
+</ThML.head>
+
+<ThML.body>
+
+    <div1 title="Title Page" id="i" prev="toc" next="ii">
+<h2 id="i-p0.1">A PURITAN CATECHISM</h2>
+ 
+<h2 id="i-p0.2">With Proofs</h2>
+ 
+<h3 id="i-p0.3">Compiled by</h3>
+ 
+<h2 id="i-p0.4">C. H. Spurgeon</h2>
+ 
+<h2 id="i-p0.5">"Heir of the Puritans"</h2>
+</div1>
+
+    <div1 title="Preface" id="ii" prev="i" next="iii">
+<p id="ii-p1">I am persuaded that the use of a good Catechism in all our families
+ will be a great safeguard against the increasing errors of the times,
+ and therefore I have compiled this little manual from the Westminster
+ Assembly's and Baptist Catechisms, for the use of my own church and
+ congregation.  Those who use it in their families or classes must
+ labour to explain the sense; but the words should be carefully
+ learned by heart, for they will be understood better as years pass.
+   May the Lord bless my dear friends and their families evermore, is
+ the prayer of their loving Pastor.</p>
+ 
+<p class="right" id="ii-p2">C. H. Spurgeon</p>
+<hr />
+ 
+<p id="ii-p3">Study to shew thyself approved unto God, a workman that needeth
+ not to be ashamed, rightly dividing the word of truth.  <scripRef id="ii-p3.1" passage="2 Ti 2:15" parsed="|2Tim|2|15|0|0" osisRef="Bible:2Tim.2.15">2 Ti 2:15</scripRef></p>
+ 
+<hr />
+ 
+ <p id="ii-p4">Published about Oct 14, 1855, when Spurgeon was 21 years old.  On
+ Oct. 14, Spurgeon preached Sermon No. 46 to several thousand who
+ gathered to hear him at New Park Street Chapel. When the sermon was
+ published it contained an announcement of this catechism. The text
+ that morning was, "Lord, thou hast been our dwelling place in all
+ generations." <scripRef id="ii-p4.1" passage="Ps. 90:1" parsed="|Ps|90|1|0|0" osisRef="Bible:Ps.90.1">Ps. 90:1</scripRef>.</p>
+ 
+<hr />
+<hr />
+<p id="ii-p5">
+     Question                                                Topic No.</p>
+ 
+<p id="ii-p6">1  What is the chief end of man?                             5901</p>
+<p id="ii-p7">2  What rule has God given to direct us how we may glorify him?          5902</p>
+<p id="ii-p8">3  What do the Scriptures principally teach?                 5903</p>
+<p id="ii-p9">4  What is God?                                              5904</p>
+<p id="ii-p10">5  Are there more Gods than one?                             5905</p>
+<p id="ii-p11">6  How many persons are there in the Godhead?                5906</p>
+<p id="ii-p12">7  What are the decrees of God?                              5907</p>
+<p id="ii-p13">8  How does God execute his decrees?                         5908</p>
+<p id="ii-p14">9  What is the work of creation?                             5909</p>
+<p id="ii-p15">10  How did God create man?                                   5910</p>
+<p id="ii-p16">11  What are God's works of providence?                       5911</p>
+<p id="ii-p17">12  What special act of providence did God exercise toward man in the state wherein he was created?          5912     </p>
+<p id="ii-p18">13  Did our parents continue in the state wherein they were created?           5913</p>
+<p id="ii-p19">14  What is sin?                                              5914</p>
+<p id="ii-p20">15  Did all mankind fall in Adam's first transgression?       5915</p>
+<p id="ii-p21">16  Into what estate did the fall bring mankind?              5916</p>
+<p id="ii-p22">17  Wherein consists the sinfulness of that state whereinto man fell?            5917</p>
+<p id="ii-p23">18  What is the misery of that state whereinto man fell?      5918</p>
+<p id="ii-p24">19  Did God leave all mankind to perish in the state of sin and misery?      5919</p>
+<p id="ii-p25">20  Who is the Redeemer of God's elect?                       5920</p>
+<p id="ii-p26">21  How did Christ, being the Son of God, become man?         5921</p>
+<p id="ii-p27">22  What offices does Christ execute as our Redeemer?         5922</p>
+<p id="ii-p28">23  How does Christ execute the office of a prophet?          5923</p>
+<p id="ii-p29">24  How does Christ execute the office of a priest?           5924</p>
+<p id="ii-p30">25  How does Christ execute the office of a king?             5925</p>
+<p id="ii-p31">26  Wherein did Christ's humiliation consist?                 5926</p>
+<p id="ii-p32">27  Wherein consists Christ's exaltation?                     5927</p>
+<p id="ii-p33">28  How are we made partakers of the redemption purchased  by Christ?    5928</p>
+<p id="ii-p34">29  How does the Spirit apply to us the redemption purchased by Christ?           5929    </p>
+<p id="ii-p35">30  What is effectual calling?                                5930</p>
+<p id="ii-p36">31  What benefits do they who are effectually called, partake of in this life?        5931     </p>
+<p id="ii-p37">32  What is justification?                                    5932</p>
+<p id="ii-p38">33  What is adoption?                                         5933</p>
+<p id="ii-p39">34  What is sanctification?                                   5934</p>
+<p id="ii-p40">35  What are the benefits which in this life do either accompany or flow from justification, adoption, and sanctification?       5935</p>
+<p id="ii-p41">36  What benefits do believers receive from Christ at their death?        5936</p>
+<p id="ii-p42">37  What benefits do believers receive from Christ at the resurrection?       5937</p>
+<p id="ii-p43">38  What shall be done to the wicked at their death?          5938</p>
+<p id="ii-p44">39  What shall be done to the wicked at the day of judgment?  5939</p>
+<p id="ii-p45">40  What did God reveal to man for the rule of his obedience? 5940</p>
+<p id="ii-p46">41  What is the sum of the ten commandments?                  5941</p>
+<p id="ii-p47">42  Which is the first commandment?                           5942</p>
+<p id="ii-p48">43  What is required in the first commandment?                5943</p>
+<p id="ii-p49">44  Which is the second commandment?                          5944</p>
+<p id="ii-p50">45  What is required in the second commandment?               5945</p>
+<p id="ii-p51">46  What is forbidden in the second commandment?              5946</p>
+<p id="ii-p52">47  Which is the third commandment?                           5947</p>
+<p id="ii-p53">48  What is required in the third commandment?                5948</p>
+<p id="ii-p54">49  Which is the fourth commandment?                          5949</p>
+<p id="ii-p55">50  What is required in the fourth commandment?               5950</p>
+<p id="ii-p56">51  How is the Sabbath to be sanctified?                      5951</p>
+<p id="ii-p57">52  Which is the fifth commandment?                           5952</p>
+<p id="ii-p58">53  What is required in the fifth commandment?                5953</p>
+<p id="ii-p59">54  What is the reason annexed to the fifth commandment?      5954</p>
+<p id="ii-p60">55  Which is the sixth commandment?                           5955</p>
+<p id="ii-p61">56  What is forbidden in the sixth commandment?               5956</p>
+<p id="ii-p62">57  Which is the seventh commandment?                         5957</p>
+<p id="ii-p63">58  What is forbidden in the seventh commandment?             5958</p>
+<p id="ii-p64">59  Which is the eighth commandment?                          5959</p>
+ 
+<p id="ii-p65">60  What is forbidden in the eighth commandment?              5960</p>
+<p id="ii-p66">61  Which is the ninth commandment?                           5961</p>
+<p id="ii-p67">62  What is required in the ninth commandment?                5962</p>
+<p id="ii-p68">63  Which is the tenth commandment?                           5963</p>
+<p id="ii-p69">64  What is forbidden in the tenth commandment?               5964</p>
+<p id="ii-p70">65  Is any man able perfectly to keep the commandments of God?       5965</p>
+<p id="ii-p71">66  Are all transgressions of the law equally heinous?        5966</p>
+<p id="ii-p72">67  What does every sin deserve?                              5967</p>
+<p id="ii-p73">68  How may we escape his wrath and curse due to us for sin?  5968</p>
+<p id="ii-p74">69  What is faith in Jesus Christ?                            5969</p>
+<p id="ii-p75">70  What is repentance to life?                               5970</p>
+<p id="ii-p76">71  What are the outward means whereby the Holy Spirit communicates to us the benefits of redemption?       5971</p>
+<p id="ii-p77">72  How is the Word made effectual to salvation?              5972</p>
+<p id="ii-p78">73  How is the Word to be read and heard that it may become effectual to salvation?         5973</p>
+<p id="ii-p79">74  How do Baptism and the Lord's Supper become spiritually helpful?              5974</p>
+<p id="ii-p80">75  What is baptism?                                          5975</p>
+<p id="ii-p81">76  To whom is Baptism to be administered?                    5976</p>
+<p id="ii-p82">77  Are the infants of such as are professing believers to be baptised?      5977</p>
+<p id="ii-p83">78  How is baptism rightly administered?                      5978</p>
+<p id="ii-p84">79  What is the duty of such as are rightly baptised?         5979</p>
+ 
+<p id="ii-p85">80  What is the Lord's Supper?                                5980</p>
+<p id="ii-p86">81  What is required to the worthy receiving of the Lord's Supper?          5981</p>
+    
+<p id="ii-p87">82  What is meant by the words, "until he come," which are used by the apostle Paul in reference to the Lord's Supper?       5982</p>
+     
+ 
+ 
+<p id="ii-p88">     See Related Topics
+         Confession of Faith                                   5450
+         The Sum of Saving Knowledge                           5750
+</p> 
+</div1>
+
+    <div1 title="A Puritan Catechism" id="iii" prev="ii" next="toc">
+<p id="iii-p1"><br />Topic No. 05901</p>
+<p style="font-weight:bold" id="iii-p2">Question 1. What is the chief end of man?</p>
+<p id="iii-p3">A  Man's chief end is to glorify God,</p>
+<p id="iii-p4"># <scripRef id="iii-p4.1" passage="1Co 10:31" parsed="|1Cor|10|31|0|0" osisRef="Bible:1Cor.10.31">1Co 10:31</scripRef></p>
+<p id="iii-p5">and to enjoy him for ever.</p>
+<p id="iii-p6"># <scripRef id="iii-p6.1" passage="Ps 73:25" parsed="|Ps|73|25|0|0" osisRef="Bible:Ps.73.25">Ps 73:25</scripRef>,<scripRef passage="Ps 73:26" id="iii-p6.2" parsed="|Ps|73|26|0|0" osisRef="Bible:Ps.73.26">26</scripRef></p>
+<p id="iii-p7"><br />Topic No. 05902</p>
+<p style="font-weight:bold" id="iii-p8">Question 2. What rule has God given to direct us how we may glorify him?</p>
+<p id="iii-p9">A  The Word of God which is contained in the Scriptures of the
+ Old and New Testaments</p>
+<p id="iii-p10"># <scripRef id="iii-p10.1" passage="Eph 2:20" parsed="|Eph|2|20|0|0" osisRef="Bible:Eph.2.20">Eph 2:20</scripRef> <scripRef id="iii-p10.2" passage="2Ti 3:16" parsed="|2Tim|3|16|0|0" osisRef="Bible:2Tim.3.16">2Ti 3:16</scripRef></p>
+<p id="iii-p11">is the only rule to direct us how we may glorify God and enjoy him.</p>
+<p id="iii-p12"># <scripRef id="iii-p12.1" passage="1Jo 1:3" parsed="|1John|1|3|0|0" osisRef="Bible:1John.1.3">1Jo 1:3</scripRef></p>
+<p id="iii-p13"><br />Topic No. 05903</p>
+<p style="font-weight:bold" id="iii-p14">Question 3. What do the Scriptures principally teach?</p>
+<p id="iii-p15">A  The Scriptures principally teach what man is to believe
+ concerning God, and what duty God requires of man.</p>
+<p id="iii-p16"># <scripRef id="iii-p16.1" passage="2Ti 1:13" parsed="|2Tim|1|13|0|0" osisRef="Bible:2Tim.1.13">2Ti 1:13</scripRef> <scripRef id="iii-p16.2" passage="Ec 12:13" parsed="|Eccl|12|13|0|0" osisRef="Bible:Eccl.12.13">Ec 12:13</scripRef></p>
+<p id="iii-p17"><br />Topic No. 05904</p>
+<p style="font-weight:bold" id="iii-p18">Question 4. What is God?</p>
+<p id="iii-p19">A  God is Spirit,</p>
+<p id="iii-p20"># <scripRef id="iii-p20.1" passage="Joh 4:24" parsed="|John|4|24|0|0" osisRef="Bible:John.4.24">Joh 4:24</scripRef></p>
+<p id="iii-p21">infinite,</p>
+<p id="iii-p22"># <scripRef id="iii-p22.1" passage="Job 11:7" parsed="|Job|11|7|0|0" osisRef="Bible:Job.11.7">Job 11:7</scripRef></p>
+<p id="iii-p23">eternal,</p>
+<p id="iii-p24"># <scripRef id="iii-p24.1" passage="Ps 90:2" parsed="|Ps|90|2|0|0" osisRef="Bible:Ps.90.2">Ps 90:2</scripRef> <scripRef id="iii-p24.2" passage="1Ti 1:17" parsed="|1Tim|1|17|0|0" osisRef="Bible:1Tim.1.17">1Ti 1:17</scripRef></p>
+<p id="iii-p25">and unchangeable</p>
+<p id="iii-p26"># <scripRef id="iii-p26.1" passage="Jas 1:17" parsed="|Jas|1|17|0|0" osisRef="Bible:Jas.1.17">Jas 1:17</scripRef></p>
+<p id="iii-p27">in his being,</p>
+<p id="iii-p28"># <scripRef id="iii-p28.1" passage="Ex 3:14" parsed="|Exod|3|14|0|0" osisRef="Bible:Exod.3.14">Ex 3:14</scripRef></p>
+<p id="iii-p29">wisdom, power,</p>
+<p id="iii-p30"># <scripRef id="iii-p30.1" passage="Ps 147:5" parsed="|Ps|147|5|0|0" osisRef="Bible:Ps.147.5">Ps 147:5</scripRef></p>
+<p id="iii-p31">holiness,</p>
+<p id="iii-p32"># <scripRef id="iii-p32.1" passage="Re 4:8" parsed="|Rev|4|8|0|0" osisRef="Bible:Rev.4.8">Re 4:8</scripRef></p>
+<p id="iii-p33">justice, goodness and truth.</p>
+<p id="iii-p34"># <scripRef id="iii-p34.1" passage="Ex 34:6" parsed="|Exod|34|6|0|0" osisRef="Bible:Exod.34.6">Ex 34:6</scripRef>,<scripRef passage="Ex 34:7" id="iii-p34.2" parsed="|Exod|34|7|0|0" osisRef="Bible:Exod.34.7">7</scripRef></p>
+<p id="iii-p35"><br />Topic No. 05905</p>
+<p style="font-weight:bold" id="iii-p36">Question 5. Are there more Gods than one?</p>
+<p id="iii-p37">A  There is but one only,</p>
+<p id="iii-p38"># <scripRef id="iii-p38.1" passage="De 6:4" parsed="|Deut|6|4|0|0" osisRef="Bible:Deut.6.4">De 6:4</scripRef></p>
+<p id="iii-p39">the living and true God.</p>
+<p id="iii-p40"># <scripRef id="iii-p40.1" passage="Jer 10:10" parsed="|Jer|10|10|0|0" osisRef="Bible:Jer.10.10">Jer 10:10</scripRef></p>
+<p id="iii-p41"><br />Topic No. 05906</p>
+<p style="font-weight:bold" id="iii-p42">Question 6. How many persons are there in the Godhead?</p>
+<p id="iii-p43">A  There are three persons in the Godhead, the Father, the Son,
+ and the Holy Spirit, and these three are one God, the same in
+ essence, equal in power and glory.</p>
+<p id="iii-p44"># <scripRef id="iii-p44.1" passage="1Jo 5:7" parsed="|1John|5|7|0|0" osisRef="Bible:1John.5.7">1Jo 5:7</scripRef> <scripRef id="iii-p44.2" passage="Mt 28:19" parsed="|Matt|28|19|0|0" osisRef="Bible:Matt.28.19">Mt 28:19</scripRef></p>
+<p id="iii-p45"><br />Topic No. 05907</p>
+<p style="font-weight:bold" id="iii-p46">Question 7. What are the decrees of God?</p>
+<p id="iii-p47">A  The decrees of God are his eternal purpose according to the
+ counsel of his own will, whereby for his own glory he has
+ foreordained whatever comes to pass.</p>
+<p id="iii-p48"># <scripRef id="iii-p48.1" passage="Eph 1:11" parsed="|Eph|1|11|0|0" osisRef="Bible:Eph.1.11">Eph 1:11</scripRef>,<scripRef passage="Eph 1:12" id="iii-p48.2" parsed="|Eph|1|12|0|0" osisRef="Bible:Eph.1.12">12</scripRef></p>
+<p id="iii-p49"><br />Topic No. 05908</p>
+<p style="font-weight:bold" id="iii-p50">Question 8. How does God execute his decrees?</p>
+<p id="iii-p51">A  God executes his decrees in the works of creation,</p>
+<p id="iii-p52"># <scripRef id="iii-p52.1" passage="Re 4:11" parsed="|Rev|4|11|0|0" osisRef="Bible:Rev.4.11">Re 4:11</scripRef></p>
+<p id="iii-p53">and providence.</p>
+<p id="iii-p54"># <scripRef id="iii-p54.1" passage="Da 4:35" parsed="|Dan|4|35|0|0" osisRef="Bible:Dan.4.35">Da 4:35</scripRef></p>
+<p id="iii-p55"><br />Topic No. 05909</p>
+<p style="font-weight:bold" id="iii-p56">Question 9. What is the work of creation?</p>
+<p id="iii-p57">A  The work of creation is God's making all things</p>
+<p id="iii-p58"># <scripRef id="iii-p58.1" passage="Ge 1:1" parsed="|Gen|1|1|0|0" osisRef="Bible:Gen.1.1">Ge 1:1</scripRef></p>
+<p id="iii-p59">of nothing, by the Word of his power,</p>
+<p id="iii-p60"># <scripRef id="iii-p60.1" passage="Heb 11:3" parsed="|Heb|11|3|0|0" osisRef="Bible:Heb.11.3">Heb 11:3</scripRef></p>
+<p id="iii-p61">in six normal consecutive days,</p>
+<p id="iii-p62"># <scripRef id="iii-p62.1" passage="Ex 20:11" parsed="|Exod|20|11|0|0" osisRef="Bible:Exod.20.11">Ex 20:11</scripRef></p>
+<p id="iii-p63">and all very good.</p>
+<p id="iii-p64"># <scripRef id="iii-p64.1" passage="Ge 1:31" parsed="|Gen|1|31|0|0" osisRef="Bible:Gen.1.31">Ge 1:31</scripRef></p>
+<p id="iii-p65"><br />Topic No. 05910</p>
+<p style="font-weight:bold" id="iii-p66">Question 10. How did God create man?</p>
+<p id="iii-p67">A  God created man, male and female, after his own image,</p>
+<p id="iii-p68"># <scripRef id="iii-p68.1" passage="Ge 1:27" parsed="|Gen|1|27|0|0" osisRef="Bible:Gen.1.27">Ge 1:27</scripRef></p>
+<p id="iii-p69">in knowledge, righteousness, and holiness</p>
+<p id="iii-p70"># <scripRef id="iii-p70.1" passage="Col 3:10" parsed="|Col|3|10|0|0" osisRef="Bible:Col.3.10">Col 3:10</scripRef> <scripRef id="iii-p70.2" passage="Eph 4:24" parsed="|Eph|4|24|0|0" osisRef="Bible:Eph.4.24">Eph 4:24</scripRef></p>
+<p id="iii-p71">with dominion over the creatures.</p>
+<p id="iii-p72"># <scripRef id="iii-p72.1" passage="Ge 1:28" parsed="|Gen|1|28|0|0" osisRef="Bible:Gen.1.28">Ge 1:28</scripRef></p>
+<p id="iii-p73"><br />Topic No. 05911</p>
+<p style="font-weight:bold" id="iii-p74">Question 11. What are God's works of providence?</p>
+<p id="iii-p75">A  God's works of providence are his most holy,</p>
+<p id="iii-p76"># <scripRef id="iii-p76.1" passage="Ps 145:17" parsed="|Ps|145|17|0|0" osisRef="Bible:Ps.145.17">Ps 145:17</scripRef></p>
+<p id="iii-p77">wise,</p>
+<p id="iii-p78"># <scripRef id="iii-p78.1" passage="Isa 28:29" parsed="|Isa|28|29|0|0" osisRef="Bible:Isa.28.29">Isa 28:29</scripRef></p>
+<p id="iii-p79">and powerful,</p>
+<p id="iii-p80"># <scripRef id="iii-p80.1" passage="Heb 1:3" parsed="|Heb|1|3|0|0" osisRef="Bible:Heb.1.3">Heb 1:3</scripRef></p>
+<p id="iii-p81">preserving and governing all his creatures, and all their actions.</p>
+<p id="iii-p82"># <scripRef id="iii-p82.1" passage="Ps 103:19" parsed="|Ps|103|19|0|0" osisRef="Bible:Ps.103.19">Ps 103:19</scripRef> <scripRef id="iii-p82.2" passage="Mt 10:29" parsed="|Matt|10|29|0|0" osisRef="Bible:Matt.10.29">Mt 10:29</scripRef></p>
+<p id="iii-p83"><br />Topic No. 05912</p>
+<p style="font-weight:bold" id="iii-p84">Question 12. What special act of providence did God exercise toward man in the state wherein he was created?</p>
+<p id="iii-p85">A  When God had created man, he entered into a covenant of life
+with him, upon condition of perfect obedience;</p>
+<p id="iii-p86"># <scripRef id="iii-p86.1" passage="Ga 3:12" parsed="|Gal|3|12|0|0" osisRef="Bible:Gal.3.12">Ga 3:12</scripRef></p>
+<p id="iii-p87">forbidding him to eat of the tree of the knowledge of good
+and evil, upon pain of death.</p>
+<p id="iii-p88"># <scripRef id="iii-p88.1" passage="Ge 2:17" parsed="|Gen|2|17|0|0" osisRef="Bible:Gen.2.17">Ge 2:17</scripRef></p>
+<p id="iii-p89"><br />Topic No. 05913</p>
+<p style="font-weight:bold" id="iii-p90">Question 13. Did our first parents continue in the state wherein they were created?</p>
+<p id="iii-p91">A  Our first parents being left to the freedom of their own
+will, fell from the state wherein they were created, by
+sinning against God,</p>
+<p id="iii-p92"># <scripRef id="iii-p92.1" passage="Ec 7:29" parsed="|Eccl|7|29|0|0" osisRef="Bible:Eccl.7.29">Ec 7:29</scripRef></p>
+<p id="iii-p93">by eating the forbidden fruit.</p>
+<p id="iii-p94"># <scripRef id="iii-p94.1" passage="Ge 3:6-8" parsed="|Gen|3|6|3|8" osisRef="Bible:Gen.3.6-Gen.3.8">Ge 3:6-8</scripRef></p>
+<p id="iii-p95"><br />Topic No. 05914</p>
+<p style="font-weight:bold" id="iii-p96">Question 14. What is sin?</p>
+<p id="iii-p97">A  Sin is any want of conformity to, or transgression of the
+law of God.</p>
+<p id="iii-p98"># <scripRef id="iii-p98.1" passage="1Jo 3:4" parsed="|1John|3|4|0|0" osisRef="Bible:1John.3.4">1Jo 3:4</scripRef></p>
+<p id="iii-p99"><br />Topic No. 05915</p>
+<p style="font-weight:bold" id="iii-p100">Question 15. Did all mankind fall in Adam's first transgression?</p>
+<p id="iii-p101">A  The covenant being made with Adam, not only for himself but
+for his posterity, all mankind descending from him by
+ordinary generation, sinned in him, and fell with him in his
+first transgression.</p>
+<p id="iii-p102"># <scripRef id="iii-p102.1" passage="1Co 15:22" parsed="|1Cor|15|22|0|0" osisRef="Bible:1Cor.15.22">1Co 15:22</scripRef> <scripRef id="iii-p102.2" passage="Ro 5:12" parsed="|Rom|5|12|0|0" osisRef="Bible:Rom.5.12">Ro 5:12</scripRef></p>
+<p id="iii-p103"><br />Topic No. 05916</p>
+<p style="font-weight:bold" id="iii-p104">Question 16. Into what estate did the fall bring mankind?</p>
+<p id="iii-p105">A  The fall brought mankind into a state of sin and misery.</p>
+<p id="iii-p106"># <scripRef id="iii-p106.1" passage="Ro 5:18" parsed="|Rom|5|18|0|0" osisRef="Bible:Rom.5.18">Ro 5:18</scripRef></p>
+<p id="iii-p107"><br />Topic No. 05917</p>
+<p style="font-weight:bold" id="iii-p108">Question 17. Wherein consists the sinfulness of that state whereinto man fell?</p>
+<p id="iii-p109">A  The sinfulness of that state whereinto man fell, consists in
+the guilt of Adam's first sin,</p>
+<p id="iii-p110"># <scripRef id="iii-p110.1" passage="Ro 5:19" parsed="|Rom|5|19|0|0" osisRef="Bible:Rom.5.19">Ro 5:19</scripRef></p>
+<p id="iii-p111">the want of original righteousness,</p>
+<p id="iii-p112"># <scripRef id="iii-p112.1" passage="Ro 3:10" parsed="|Rom|3|10|0|0" osisRef="Bible:Rom.3.10">Ro 3:10</scripRef></p>
+<p id="iii-p113">and the corruption of his whole nature, which is commonly
+called original sin,</p>
+<p id="iii-p114"># <scripRef id="iii-p114.1" passage="Eph 2:1" parsed="|Eph|2|1|0|0" osisRef="Bible:Eph.2.1">Eph 2:1</scripRef> <scripRef id="iii-p114.2" passage="Ps 51:5" parsed="|Ps|51|5|0|0" osisRef="Bible:Ps.51.5">Ps 51:5</scripRef></p>
+<p id="iii-p115">together with all actual transgressions which proceed from it.</p>
+<p id="iii-p116"># <scripRef id="iii-p116.1" passage="Mt 15:19" parsed="|Matt|15|19|0|0" osisRef="Bible:Matt.15.19">Mt 15:19</scripRef></p>
+<p id="iii-p117"><br />Topic No. 05918</p>
+<p style="font-weight:bold" id="iii-p118">Question 18. What is the misery of that state whereinto man fell?</p>
+<p id="iii-p119">A  All mankind, by their fall, lost communion with God,</p>
+<p id="iii-p120"># <scripRef id="iii-p120.1" passage="Ge 3:8" parsed="|Gen|3|8|0|0" osisRef="Bible:Gen.3.8">Ge 3:8</scripRef>,<scripRef passage="Ge 3:24" id="iii-p120.2" parsed="|Gen|3|24|0|0" osisRef="Bible:Gen.3.24">24</scripRef></p>
+<p id="iii-p121">are under his wrath and curse,</p>
+<p id="iii-p122"># <scripRef id="iii-p122.1" passage="Eph 2:3" parsed="|Eph|2|3|0|0" osisRef="Bible:Eph.2.3">Eph 2:3</scripRef> <scripRef id="iii-p122.2" passage="Ga 3:10" parsed="|Gal|3|10|0|0" osisRef="Bible:Gal.3.10">Ga 3:10</scripRef></p>
+<p id="iii-p123">and so made liable to all the miseries in this life, to death
+itself, and to the pains of hell for ever.</p>
+<p id="iii-p124"># <scripRef id="iii-p124.1" passage="Ro 6:23" parsed="|Rom|6|23|0|0" osisRef="Bible:Rom.6.23">Ro 6:23</scripRef> <scripRef id="iii-p124.2" passage="Mt 25:41" parsed="|Matt|25|41|0|0" osisRef="Bible:Matt.25.41">Mt 25:41</scripRef></p>
+<p id="iii-p125"><br />Topic No. 05919</p>
+<p style="font-weight:bold" id="iii-p126">Question 19. Did God leave all mankind to perish in the state of sin and misery?</p>
+<p id="iii-p127">A  God having, out of his good pleasure from all eternity,
+elected some to everlasting life,</p>
+<p id="iii-p128"># <scripRef id="iii-p128.1" passage="2Th 2:13" parsed="|2Thess|2|13|0|0" osisRef="Bible:2Thess.2.13">2Th 2:13</scripRef></p>
+<p id="iii-p129">did enter into a covenant of grace to deliver them out of the
+state of sin and misery, and to bring them into a state of
+salvation by a Redeemer.</p>
+<p id="iii-p130"># <scripRef id="iii-p130.1" passage="Ro 5:21" parsed="|Rom|5|21|0|0" osisRef="Bible:Rom.5.21">Ro 5:21</scripRef></p>
+<p id="iii-p131"><br />Topic No. 05920</p>
+<p style="font-weight:bold" id="iii-p132">Question 20. Who is the Redeemer of God's elect?</p>
+<p id="iii-p133">A  The only Redeemer of God's elect is the Lord Jesus Christ,</p>
+<p id="iii-p134"># <scripRef id="iii-p134.1" passage="1Ti 2:5" parsed="|1Tim|2|5|0|0" osisRef="Bible:1Tim.2.5">1Ti 2:5</scripRef></p>
+<p id="iii-p135">who being the eternal Son of God, became man,</p>
+<p id="iii-p136"># <scripRef id="iii-p136.1" passage="Joh 1:14" parsed="|John|1|14|0|0" osisRef="Bible:John.1.14">Joh 1:14</scripRef></p>
+<p id="iii-p137">and so was and continues to be God and man, in two distinct
+natures and one person for ever.</p>
+<p id="iii-p138"># <scripRef id="iii-p138.1" passage="1Ti 3:16" parsed="|1Tim|3|16|0|0" osisRef="Bible:1Tim.3.16">1Ti 3:16</scripRef> <scripRef id="iii-p138.2" passage="Col 2:9" parsed="|Col|2|9|0|0" osisRef="Bible:Col.2.9">Col 2:9</scripRef></p>
+<p id="iii-p139"><br />Topic No. 05921</p>
+<p style="font-weight:bold" id="iii-p140">Question 21. How did Christ, being the Son of God, become man?</p>
+<p id="iii-p141">A  Christ, the son of God, became man by taking to himself
+a true body,</p>
+<p id="iii-p142"># <scripRef id="iii-p142.1" passage="Heb 2:14" parsed="|Heb|2|14|0|0" osisRef="Bible:Heb.2.14">Heb 2:14</scripRef></p>
+<p id="iii-p143">and a reasonable soul,</p>
+<p id="iii-p144"># <scripRef id="iii-p144.1" passage="Mt 26:38" parsed="|Matt|26|38|0|0" osisRef="Bible:Matt.26.38">Mt 26:38</scripRef> <scripRef id="iii-p144.2" passage="Heb 4:15" parsed="|Heb|4|15|0|0" osisRef="Bible:Heb.4.15">Heb 4:15</scripRef></p>
+<p id="iii-p145">being conceived by the power of the Holy Spirit in the
+Virgin Mary, and born of her,</p>
+<p id="iii-p146"># <scripRef id="iii-p146.1" passage="Lu 1:31" parsed="|Luke|1|31|0|0" osisRef="Bible:Luke.1.31">Lu 1:31</scripRef>,<scripRef passage="Lu 1:35" id="iii-p146.2" parsed="|Luke|1|35|0|0" osisRef="Bible:Luke.1.35">35</scripRef></p>
+<p id="iii-p147">yet without sin.</p>
+<p id="iii-p148"># <scripRef id="iii-p148.1" passage="Heb 7:26" parsed="|Heb|7|26|0|0" osisRef="Bible:Heb.7.26">Heb 7:26</scripRef></p>
+<p id="iii-p149"><br />Topic No. 05922</p>
+<p style="font-weight:bold" id="iii-p150">Question 22. What offices does Christ execute as our Redeemer?</p>
+<p id="iii-p151">A  Christ as our Redeemer executes the offices of a prophet,</p>
+<p id="iii-p152"># <scripRef id="iii-p152.1" passage="Ac 3:22" parsed="|Acts|3|22|0|0" osisRef="Bible:Acts.3.22">Ac 3:22</scripRef></p>
+<p id="iii-p153">of a priest,</p>
+<p id="iii-p154"># <scripRef id="iii-p154.1" passage="Heb 5:6" parsed="|Heb|5|6|0|0" osisRef="Bible:Heb.5.6">Heb 5:6</scripRef></p>
+<p id="iii-p155">and of a king,</p>
+<p id="iii-p156"># <scripRef id="iii-p156.1" passage="Ps 2:6" parsed="|Ps|2|6|0|0" osisRef="Bible:Ps.2.6">Ps 2:6</scripRef></p>
+<p id="iii-p157">both in his state of humiliation and exaltation.</p>
+<p id="iii-p158"><br />Topic No. 05923</p>
+<p style="font-weight:bold" id="iii-p159">Question 23. How does Christ execute the office of a prophet?</p>
+<p id="iii-p160">A  Christ executes the office of a prophet, in revealing to us,</p>
+<p id="iii-p161"># <scripRef id="iii-p161.1" passage="Joh 1:18" parsed="|John|1|18|0|0" osisRef="Bible:John.1.18">Joh 1:18</scripRef></p>
+<p id="iii-p162">by his Word,</p>
+<p id="iii-p163"># <scripRef id="iii-p163.1" passage="Joh 20:31" parsed="|John|20|31|0|0" osisRef="Bible:John.20.31">Joh 20:31</scripRef></p>
+<p id="iii-p164">and Spirit,</p>
+<p id="iii-p165"># <scripRef id="iii-p165.1" passage="Joh 14:26" parsed="|John|14|26|0|0" osisRef="Bible:John.14.26">Joh 14:26</scripRef></p>
+<p id="iii-p166">the will of God for our salvation.</p>
+<p id="iii-p167"><br />Topic No. 05924</p>
+<p style="font-weight:bold" id="iii-p168">Question 24. How does Christ execute the office of a priest?</p>
+<p id="iii-p169">A  Christ executes the office of a priest, in his once offering
+up himself a sacrifice to satisfy divine justice,</p>
+<p id="iii-p170"># <scripRef id="iii-p170.1" passage="Heb 9:28" parsed="|Heb|9|28|0|0" osisRef="Bible:Heb.9.28">Heb 9:28</scripRef></p>
+<p id="iii-p171">and to reconcile us to God,</p>
+<p id="iii-p172"># <scripRef id="iii-p172.1" passage="Heb 2:17" parsed="|Heb|2|17|0|0" osisRef="Bible:Heb.2.17">Heb 2:17</scripRef></p>
+<p id="iii-p173">and in making continual intercession for us.</p>
+<p id="iii-p174"># <scripRef id="iii-p174.1" passage="Heb 7:25" parsed="|Heb|7|25|0|0" osisRef="Bible:Heb.7.25">Heb 7:25</scripRef></p>
+<p id="iii-p175"><br />Topic No. 05925</p>
+<p style="font-weight:bold" id="iii-p176">Question 25. How does Christ execute the office of a king?</p>
+<p id="iii-p177">A  Christ executes the office of a king in subduing us to himself,</p>
+<p id="iii-p178"># <scripRef id="iii-p178.1" passage="Ps 110:3" parsed="|Ps|110|3|0|0" osisRef="Bible:Ps.110.3">Ps 110:3</scripRef></p>
+<p id="iii-p179">in ruling and defending us,</p>
+<p id="iii-p180"># <scripRef id="iii-p180.1" passage="Mt 2:6" parsed="|Matt|2|6|0|0" osisRef="Bible:Matt.2.6">Mt 2:6</scripRef> <scripRef id="iii-p180.2" passage="1Co 15:25" parsed="|1Cor|15|25|0|0" osisRef="Bible:1Cor.15.25">1Co 15:25</scripRef></p>
+<p id="iii-p181">and in restraining and conquering all his and our enemies.</p>
+<p id="iii-p182"><br />Topic No. 05926</p>
+<p style="font-weight:bold" id="iii-p183">Question 26. Wherein did Christ's humiliation consist?</p>
+<p id="iii-p184">A  Christ's humiliation consisted in his being born, and that in
+a low condition,</p>
+<p id="iii-p185"># <scripRef id="iii-p185.1" passage="Lu 2:7" parsed="|Luke|2|7|0|0" osisRef="Bible:Luke.2.7">Lu 2:7</scripRef></p>
+<p id="iii-p186">made under the law,</p>
+<p id="iii-p187"># <scripRef id="iii-p187.1" passage="Ga 4:4" parsed="|Gal|4|4|0|0" osisRef="Bible:Gal.4.4">Ga 4:4</scripRef></p>
+<p id="iii-p188">undergoing the miseries of this life,</p>
+<p id="iii-p189"># <scripRef id="iii-p189.1" passage="Isa 53:3" parsed="|Isa|53|3|0|0" osisRef="Bible:Isa.53.3">Isa 53:3</scripRef></p>
+<p id="iii-p190">the wrath of God,</p>
+<p id="iii-p191"># <scripRef id="iii-p191.1" passage="Mt 27:46" parsed="|Matt|27|46|0|0" osisRef="Bible:Matt.27.46">Mt 27:46</scripRef></p>
+<p id="iii-p192">and the cursed death of the cross;</p>
+<p id="iii-p193"># <scripRef id="iii-p193.1" passage="Php 2:8" parsed="|Phil|2|8|0|0" osisRef="Bible:Phil.2.8">Php 2:8</scripRef></p>
+<p id="iii-p194">in being buried, and continuing under the power of death for a time.</p>
+<p id="iii-p195"># <scripRef id="iii-p195.1" passage="Mt 12:40" parsed="|Matt|12|40|0|0" osisRef="Bible:Matt.12.40">Mt 12:40</scripRef></p>
+<p id="iii-p196"><br />Topic No. 05927</p>
+<p style="font-weight:bold" id="iii-p197">Question 27. Wherein consists Christ's exaltation?</p>
+<p id="iii-p198">A  Christ's exaltation consists in his rising again from the dead
+on the third day,</p>
+<p id="iii-p199"># <scripRef id="iii-p199.1" passage="1Co 15:4" parsed="|1Cor|15|4|0|0" osisRef="Bible:1Cor.15.4">1Co 15:4</scripRef></p>
+<p id="iii-p200">in ascending up into heaven, and sitting at the right hand of
+God the Father,</p>
+<p id="iii-p201"># <scripRef id="iii-p201.1" passage="Mr 16:19" parsed="|Mark|16|19|0|0" osisRef="Bible:Mark.16.19">Mr 16:19</scripRef></p>
+<p id="iii-p202">and in coming to judge the world at the last day.</p>
+<p id="iii-p203"># <scripRef id="iii-p203.1" passage="Ac 17:31" parsed="|Acts|17|31|0|0" osisRef="Bible:Acts.17.31">Ac 17:31</scripRef></p>
+<p id="iii-p204"><br />Topic No. 05928</p>
+<p style="font-weight:bold" id="iii-p205">Question 28. How are we made partakers of the redemption purchased by Christ?</p>
+<p id="iii-p206">A  We are made partakers of the redemption purchased by Christ,
+by the effectual application of it to us</p>
+<p id="iii-p207"># <scripRef id="iii-p207.1" passage="Joh 1:12" parsed="|John|1|12|0|0" osisRef="Bible:John.1.12">Joh 1:12</scripRef></p>
+<p id="iii-p208">by his Holy Spirit.</p>
+<p id="iii-p209"># <scripRef id="iii-p209.1" passage="Tit 3:5" parsed="|Titus|3|5|0|0" osisRef="Bible:Titus.3.5">Tit 3:5</scripRef>,<scripRef passage="Tit 3:6" id="iii-p209.2" parsed="|Titus|3|6|0|0" osisRef="Bible:Titus.3.6">6</scripRef></p>
+<p id="iii-p210"><br />Topic No. 05929</p>
+<p style="font-weight:bold" id="iii-p211">Question 29. How does the Spirit apply to us the redemption purchased by Christ?</p>
+<p id="iii-p212">A  The Spirit applies to us the redemption purchased by Christ,
+by working faith in us,</p>
+<p id="iii-p213"># <scripRef id="iii-p213.1" passage="Eph 2:8" parsed="|Eph|2|8|0|0" osisRef="Bible:Eph.2.8">Eph 2:8</scripRef></p>
+<p id="iii-p214">and by it uniting us to Christ in our effectual calling.</p>
+<p id="iii-p215"># <scripRef id="iii-p215.1" passage="Eph 3:17" parsed="|Eph|3|17|0|0" osisRef="Bible:Eph.3.17">Eph 3:17</scripRef></p>
+<p id="iii-p216"><br />Topic No. 05930</p>
+<p style="font-weight:bold" id="iii-p217">Question 30. What is effectual calling?</p>
+<p id="iii-p218">A  Effectual calling is the work of God's Spirit</p>
+<p id="iii-p219"># <scripRef id="iii-p219.1" passage="2Ti 1:9" parsed="|2Tim|1|9|0|0" osisRef="Bible:2Tim.1.9">2Ti 1:9</scripRef></p>
+<p id="iii-p220">whereby, convincing us of our sin and misery,</p>
+<p id="iii-p221"># <scripRef id="iii-p221.1" passage="Ac 2:37" parsed="|Acts|2|37|0|0" osisRef="Bible:Acts.2.37">Ac 2:37</scripRef></p>
+<p id="iii-p222">enlightening our minds in the knowledge of Christ,</p>
+<p id="iii-p223"># <scripRef id="iii-p223.1" passage="Ac 26:18" parsed="|Acts|26|18|0|0" osisRef="Bible:Acts.26.18">Ac 26:18</scripRef></p>
+<p id="iii-p224">and renewing our wills,</p>
+<p id="iii-p225"># <scripRef id="iii-p225.1" passage="Eze 36:26" parsed="|Ezek|36|26|0|0" osisRef="Bible:Ezek.36.26">Eze 36:26</scripRef></p>
+<p id="iii-p226">he does persuade and enable us to embrace Jesus Christ freely
+offered to us in the gospel.</p>
+<p id="iii-p227"># <scripRef id="iii-p227.1" passage="Joh 6:44" parsed="|John|6|44|0|0" osisRef="Bible:John.6.44">Joh 6:44</scripRef>,<scripRef passage="Joh 6:45" id="iii-p227.2" parsed="|John|6|45|0|0" osisRef="Bible:John.6.45">45</scripRef></p>
+<p id="iii-p228"><br />Topic No. 05931</p>
+<p style="font-weight:bold" id="iii-p229">Question 31. What benefits do they who are effectually called, partake of in this life?</p>
+<p id="iii-p230">A  They who are effectually called, do in this life partake of
+justification,</p>
+<p id="iii-p231"># <scripRef id="iii-p231.1" passage="Ro 8:30" parsed="|Rom|8|30|0|0" osisRef="Bible:Rom.8.30">Ro 8:30</scripRef></p>
+<p id="iii-p232">adoption,</p>
+<p id="iii-p233"># <scripRef id="iii-p233.1" passage="Eph 1:5" parsed="|Eph|1|5|0|0" osisRef="Bible:Eph.1.5">Eph 1:5</scripRef></p>
+<p id="iii-p234">sanctification, and the various benefits which in this life
+do either accompany, or flow from them.</p>
+<p id="iii-p235"># <scripRef id="iii-p235.1" passage="1Co 1:30" parsed="|1Cor|1|30|0|0" osisRef="Bible:1Cor.1.30">1Co 1:30</scripRef></p>
+<p id="iii-p236"><br />Topic No. 05932</p>
+<p style="font-weight:bold" id="iii-p237">Question 32. What is justification?</p>
+<p id="iii-p238">A  Justification is an act of God's free grace, wherein he
+pardons all our sins,</p>
+<p id="iii-p239"># <scripRef id="iii-p239.1" passage="Ro 3:24" parsed="|Rom|3|24|0|0" osisRef="Bible:Rom.3.24">Ro 3:24</scripRef> <scripRef id="iii-p239.2" passage="Eph 1:7" parsed="|Eph|1|7|0|0" osisRef="Bible:Eph.1.7">Eph 1:7</scripRef></p>
+<p id="iii-p240">and accepts us as righteous in his sight</p>
+<p id="iii-p241"># <scripRef id="iii-p241.1" passage="2Co 5:21" parsed="|2Cor|5|21|0|0" osisRef="Bible:2Cor.5.21">2Co 5:21</scripRef></p>
+<p id="iii-p242">only for the righteousness of Christ imputed to us,</p>
+<p id="iii-p243"># <scripRef id="iii-p243.1" passage="Ro 5:19" parsed="|Rom|5|19|0|0" osisRef="Bible:Rom.5.19">Ro 5:19</scripRef></p>
+<p id="iii-p244">and received by faith alone.</p>
+<p id="iii-p245"># <scripRef id="iii-p245.1" passage="Ga 2:16" parsed="|Gal|2|16|0|0" osisRef="Bible:Gal.2.16">Ga 2:16</scripRef> <scripRef id="iii-p245.2" passage="Php 3:9" parsed="|Phil|3|9|0|0" osisRef="Bible:Phil.3.9">Php 3:9</scripRef></p>
+<p id="iii-p246"><br />Topic No. 05933</p>
+<p style="font-weight:bold" id="iii-p247">Question 33. What is adoption?</p>
+<p id="iii-p248">A  Adoption is an act of God's free grace,</p>
+<p id="iii-p249"># <scripRef id="iii-p249.1" passage="1Jo 3:1" parsed="|1John|3|1|0|0" osisRef="Bible:1John.3.1">1Jo 3:1</scripRef></p>
+<p id="iii-p250">whereby we are received into the number, and have a right to
+all the privileges of the sons of God.</p>
+<p id="iii-p251"># <scripRef id="iii-p251.1" passage="Joh 1:12" parsed="|John|1|12|0|0" osisRef="Bible:John.1.12">Joh 1:12</scripRef> <scripRef id="iii-p251.2" passage="Ro 8:17" parsed="|Rom|8|17|0|0" osisRef="Bible:Rom.8.17">Ro 8:17</scripRef></p>
+<p id="iii-p252"><br />Topic No. 05934</p>
+<p style="font-weight:bold" id="iii-p253">Question 34. What is sanctification?</p>
+<p id="iii-p254">A  Sanctification is the work of God's Spirit,</p>
+<p id="iii-p255"># <scripRef id="iii-p255.1" passage="2Th 2:13" parsed="|2Thess|2|13|0|0" osisRef="Bible:2Thess.2.13">2Th 2:13</scripRef></p>
+<p id="iii-p256">whereby we are renewed in the whole man after the image of God,</p>
+<p id="iii-p257"># <scripRef id="iii-p257.1" passage="Eph 4:24" parsed="|Eph|4|24|0|0" osisRef="Bible:Eph.4.24">Eph 4:24</scripRef></p>
+<p id="iii-p258">and are enabled more and more to die to sin, and live to
+righteousness.</p>
+<p id="iii-p259"># <scripRef id="iii-p259.1" passage="Ro 6:11" parsed="|Rom|6|11|0|0" osisRef="Bible:Rom.6.11">Ro 6:11</scripRef></p>
+<p id="iii-p260"><br />Topic No. 05935</p>
+<p style="font-weight:bold" id="iii-p261">Question 35. What are the benefits which in this life do either accompany or flow from justification, adoption, and sanctification?</p>
+<p id="iii-p262">A  The benefits which in this life do accompany or flow from
+justification,</p>
+<p id="iii-p263"># <scripRef id="iii-p263.1" passage="Ro 5:1" parsed="|Rom|5|1|0|0" osisRef="Bible:Rom.5.1">Ro 5:1</scripRef>,<scripRef passage="Ro 5:2" id="iii-p263.2" parsed="|Rom|5|2|0|0" osisRef="Bible:Rom.5.2">2</scripRef>,<scripRef passage="Ro 5:5" id="iii-p263.3" parsed="|Rom|5|5|0|0" osisRef="Bible:Rom.5.5">5</scripRef></p>
+<p id="iii-p264">are assurance of God's love, peace of conscience, joy in the
+Holy Spirit,</p>
+<p id="iii-p265"># <scripRef id="iii-p265.1" passage="Ro 14:17" parsed="|Rom|14|17|0|0" osisRef="Bible:Rom.14.17">Ro 14:17</scripRef></p>
+<p id="iii-p266">increase of grace, perseverance in it to the end.</p>
+<p id="iii-p267"># <scripRef id="iii-p267.1" passage="Pr 4:18" parsed="|Prov|4|18|0|0" osisRef="Bible:Prov.4.18">Pr 4:18</scripRef> <scripRef id="iii-p267.2" passage="1Jo 5:13" parsed="|1John|5|13|0|0" osisRef="Bible:1John.5.13">1Jo 5:13</scripRef> <scripRef id="iii-p267.3" passage="1Pe 1:5" parsed="|1Pet|1|5|0|0" osisRef="Bible:1Pet.1.5">1Pe 1:5</scripRef></p>
+<p id="iii-p268"><br />Topic No. 05936</p>
+<p style="font-weight:bold" id="iii-p269">Question 36. What benefits do believers receive from Christ at their death?</p>
+<p id="iii-p270">A  The souls of believers are at their death made perfect in
+holiness,</p>
+<p id="iii-p271"># <scripRef id="iii-p271.1" passage="Heb 12:23" parsed="|Heb|12|23|0|0" osisRef="Bible:Heb.12.23">Heb 12:23</scripRef></p>
+<p id="iii-p272">and do immediately pass into glory,</p>
+<p id="iii-p273"># <scripRef id="iii-p273.1" passage="Php 1:23" parsed="|Phil|1|23|0|0" osisRef="Bible:Phil.1.23">Php 1:23</scripRef> <scripRef id="iii-p273.2" passage="2Co 5:8" parsed="|2Cor|5|8|0|0" osisRef="Bible:2Cor.5.8">2Co 5:8</scripRef> <scripRef id="iii-p273.3" passage="Lu 23:43" parsed="|Luke|23|43|0|0" osisRef="Bible:Luke.23.43">Lu 23:43</scripRef></p>
+<p id="iii-p274">and their bodies, being still united to Christ,</p>
+<p id="iii-p275"># <scripRef id="iii-p275.1" passage="1Th 4:14" parsed="|1Thess|4|14|0|0" osisRef="Bible:1Thess.4.14">1Th 4:14</scripRef></p>
+<p id="iii-p276">do rest in their graves</p>
+<p id="iii-p277"># <scripRef id="iii-p277.1" passage="Isa 57:2" parsed="|Isa|57|2|0|0" osisRef="Bible:Isa.57.2">Isa 57:2</scripRef></p>
+<p id="iii-p278">till the resurrection.</p>
+<p id="iii-p279"># <scripRef id="iii-p279.1" passage="Job 19:26" parsed="|Job|19|26|0|0" osisRef="Bible:Job.19.26">Job 19:26</scripRef></p>
+<p id="iii-p280"><br />Topic No. 05937</p>
+<p style="font-weight:bold" id="iii-p281">Question 37. What benefits do believers receive from Christ at the resurrection?</p>
+<p id="iii-p282">A  At the resurrection, believers being raised up in glory,</p>
+<p id="iii-p283"># <scripRef id="iii-p283.1" passage="1Co 15:43" parsed="|1Cor|15|43|0|0" osisRef="Bible:1Cor.15.43">1Co 15:43</scripRef></p>
+<p id="iii-p284">shall be openly acknowledged and acquitted in the day of judgment,</p>
+<p id="iii-p285"># <scripRef id="iii-p285.1" passage="Mt 10:32" parsed="|Matt|10|32|0|0" osisRef="Bible:Matt.10.32">Mt 10:32</scripRef></p>
+<p id="iii-p286">and made perfectly blessed both in soul and body in the full
+enjoying of God</p>
+<p id="iii-p287"># <scripRef id="iii-p287.1" passage="1Jo 3:2" parsed="|1John|3|2|0|0" osisRef="Bible:1John.3.2">1Jo 3:2</scripRef></p>
+<p id="iii-p288">to all eternity.</p>
+<p id="iii-p289"># <scripRef id="iii-p289.1" passage="1Th 4:17" parsed="|1Thess|4|17|0|0" osisRef="Bible:1Thess.4.17">1Th 4:17</scripRef></p>
+<p id="iii-p290"><br />Topic No. 05938</p>
+<p style="font-weight:bold" id="iii-p291">Question 38. What shall be done to the wicked at their death?</p>
+<p id="iii-p292">A  The souls of the wicked shall at their death be cast into the
+torments of hell,</p>
+<p id="iii-p293"># <scripRef id="iii-p293.1" passage="Lu 16:22-24" parsed="|Luke|16|22|16|24" osisRef="Bible:Luke.16.22-Luke.16.24">Lu 16:22-24</scripRef></p>
+<p id="iii-p294">and their bodies lie in their graves till the resurrection,
+and judgement of the great day.</p>
+<p id="iii-p295"># <scripRef id="iii-p295.1" passage="Ps 49:14" parsed="|Ps|49|14|0|0" osisRef="Bible:Ps.49.14">Ps 49:14</scripRef></p>
+<p id="iii-p296"><br />Topic No. 05939</p>
+<p style="font-weight:bold" id="iii-p297">Question 39. What shall be done to the wicked at the day of judgment?</p>
+<p id="iii-p298">A  At the day of judgment the bodies of the wicked being raised
+out of their graves, shall be sentenced, together with their
+souls, to unspeakable torments with the devil and his angels
+for ever.</p>
+<p id="iii-p299"># <scripRef id="iii-p299.1" passage="Da 12:2" parsed="|Dan|12|2|0|0" osisRef="Bible:Dan.12.2">Da 12:2</scripRef> <scripRef id="iii-p299.2" passage="Joh 5:28" parsed="|John|5|28|0|0" osisRef="Bible:John.5.28">Joh 5:28</scripRef>,<scripRef passage="Joh 5:29" id="iii-p299.3" parsed="|John|5|29|0|0" osisRef="Bible:John.5.29">29</scripRef> <scripRef id="iii-p299.4" passage="2Th 1:9" parsed="|2Thess|1|9|0|0" osisRef="Bible:2Thess.1.9">2Th 1:9</scripRef> <scripRef id="iii-p299.5" passage="Mt 25:41" parsed="|Matt|25|41|0|0" osisRef="Bible:Matt.25.41">Mt 25:41</scripRef></p>
+<p id="iii-p300"><br />Topic No. 05940</p>
+<p style="font-weight:bold" id="iii-p301">Question 40. What did God reveal to man for the rule of his obedience?</p>
+<p id="iii-p302">A  The rule which God first revealed to man for his obedience,
+is the moral law,</p>
+<p id="iii-p303"># <scripRef id="iii-p303.1" passage="De 10:4" parsed="|Deut|10|4|0|0" osisRef="Bible:Deut.10.4">De 10:4</scripRef> <scripRef id="iii-p303.2" passage="Mt 19:17" parsed="|Matt|19|17|0|0" osisRef="Bible:Matt.19.17">Mt 19:17</scripRef></p>
+<p id="iii-p304">which is summarised in the ten commandments.</p>
+<p id="iii-p305"><br />Topic No. 05941</p>
+<p style="font-weight:bold" id="iii-p306">Question 41. What is the sum of the ten commandments?</p>
+<p id="iii-p307">A  The sum of the ten commandments is to love the Lord our God
+with all our heart, with all our soul, with all our strength,
+and with all our mind; and our neighbour as ourselves.</p>
+<p id="iii-p308"># <scripRef id="iii-p308.1" passage="Mt 22:37-40" parsed="|Matt|22|37|22|40" osisRef="Bible:Matt.22.37-Matt.22.40">Mt 22:37-40</scripRef></p>
+<p id="iii-p309"><br />Topic No. 05942</p>
+<p style="font-weight:bold" id="iii-p310">Question 42. Which is the first commandment?</p>
+<p id="iii-p311">A  The first commandment is, "Thou shalt have no other gods
+before me."</p>
+<p id="iii-p312"><br />Topic No. 05943</p>
+<p style="font-weight:bold" id="iii-p313">Question 43. What is required in the first commandment?</p>
+<p id="iii-p314">A  The first commandment requires us to know</p>
+<p id="iii-p315"># <scripRef id="iii-p315.1" passage="1Ch 28:9" parsed="|1Chr|28|9|0|0" osisRef="Bible:1Chr.28.9">1Ch 28:9</scripRef></p>
+<p id="iii-p316">and acknowledge God to be the only true God, and our God,</p>
+<p id="iii-p317"># <scripRef id="iii-p317.1" passage="De 26:17" parsed="|Deut|26|17|0|0" osisRef="Bible:Deut.26.17">De 26:17</scripRef></p>
+<p id="iii-p318">and to worship and glorify him accordingly.</p>
+<p id="iii-p319"># <scripRef id="iii-p319.1" passage="Mt 4:10" parsed="|Matt|4|10|0|0" osisRef="Bible:Matt.4.10">Mt 4:10</scripRef></p>
+<p id="iii-p320"><br />Topic No. 05944</p>
+<p style="font-weight:bold" id="iii-p321">Question 44. Which is the second commandment?</p>
+<p id="iii-p322">A  The second commandment is, "Thou shalt not make unto thee any
+graven image, or any likeness of any thing that is in heaven
+above, or that is in the earth beneath, or that is in the
+water under the earth:  Thou shalt not bow down thyself to
+them, nor serve them: for I the Lord thy God am a jealous
+God, visiting the iniquity of the fathers upon the children
+unto the third and fourth generation of them that hate me;
+and shewing mercy unto thousands of them that love me, and
+keep my commandments."</p>
+<p id="iii-p323"><br />Topic No. 05945</p>
+<p style="font-weight:bold" id="iii-p324">Question 45. What is required in the second commandment?</p>
+<p id="iii-p325">A  The second commandment requires the receiving, observing,</p>
+<p id="iii-p326"># <scripRef id="iii-p326.1" passage="De 32:46" parsed="|Deut|32|46|0|0" osisRef="Bible:Deut.32.46">De 32:46</scripRef> <scripRef id="iii-p326.2" passage="Mt 28:20" parsed="|Matt|28|20|0|0" osisRef="Bible:Matt.28.20">Mt 28:20</scripRef></p>
+<p id="iii-p327">and keeping pure and entire all such religious worship
+and ordinances as God has appointed in his Word.</p>
+<p id="iii-p328"># <scripRef id="iii-p328.1" passage="De 12:32" parsed="|Deut|12|32|0|0" osisRef="Bible:Deut.12.32">De 12:32</scripRef></p>
+<p id="iii-p329"><br />Topic No. 05946</p>
+<p style="font-weight:bold" id="iii-p330">Question 46. What is forbidden in the second commandment?</p>
+<p id="iii-p331">A  The second commandment forbids the worshipping of God
+by images,</p>
+<p id="iii-p332"># <scripRef id="iii-p332.1" passage="De 4:15" parsed="|Deut|4|15|0|0" osisRef="Bible:Deut.4.15">De 4:15</scripRef>,<scripRef passage="De 4:16" id="iii-p332.2" parsed="|Deut|4|16|0|0" osisRef="Bible:Deut.4.16">16</scripRef></p>
+<p id="iii-p333">or any other way not appointed in his Word.</p>
+<p id="iii-p334"># <scripRef id="iii-p334.1" passage="Col 2:18" parsed="|Col|2|18|0|0" osisRef="Bible:Col.2.18">Col 2:18</scripRef></p>
+<p id="iii-p335"><br />Topic No. 05947</p>
+<p style="font-weight:bold" id="iii-p336">Question 47. Which is the third commandment?</p>
+<p id="iii-p337">A  The third commandment is, "Thou shalt not take the name of
+the Lord thy God in vain; for the Lord will not hold him
+guiltless that takes his name in vain."</p>
+<p id="iii-p338"><br />Topic No. 05948</p>
+<p style="font-weight:bold" id="iii-p339">Question 48. What is required in the third commandment?</p>
+<p id="iii-p340">A  The third commandment requires the holy and reverent
+use of God's names,</p>
+<p id="iii-p341"># <scripRef id="iii-p341.1" passage="Ps 29:2" parsed="|Ps|29|2|0|0" osisRef="Bible:Ps.29.2">Ps 29:2</scripRef></p>
+<p id="iii-p342">titles, attributes,</p>
+<p id="iii-p343"># <scripRef id="iii-p343.1" passage="Re 15:3" parsed="|Rev|15|3|0|0" osisRef="Bible:Rev.15.3">Re 15:3</scripRef>,<scripRef passage="Re 15:4" id="iii-p343.2" parsed="|Rev|15|4|0|0" osisRef="Bible:Rev.15.4">4</scripRef></p>
+<p id="iii-p344">ordinances,</p>
+<p id="iii-p345"># <scripRef id="iii-p345.1" passage="Ec 5:1" parsed="|Eccl|5|1|0|0" osisRef="Bible:Eccl.5.1">Ec 5:1</scripRef></p>
+<p id="iii-p346">Word,</p>
+<p id="iii-p347"># <scripRef id="iii-p347.1" passage="Ps 138:2" parsed="|Ps|138|2|0|0" osisRef="Bible:Ps.138.2">Ps 138:2</scripRef></p>
+<p id="iii-p348">and works.</p>
+<p id="iii-p349"># <scripRef id="iii-p349.1" passage="Job 36:24" parsed="|Job|36|24|0|0" osisRef="Bible:Job.36.24">Job 36:24</scripRef> <scripRef id="iii-p349.2" passage="De 28:58" parsed="|Deut|28|58|0|0" osisRef="Bible:Deut.28.58">De 28:58</scripRef>,<scripRef passage="De 28:59" id="iii-p349.3" parsed="|Deut|28|59|0|0" osisRef="Bible:Deut.28.59">59</scripRef></p>
+<p id="iii-p350"><br />Topic No. 05949</p>
+<p style="font-weight:bold" id="iii-p351">Question 49. Which is the fourth commandment?</p>
+<p id="iii-p352">A  The fourth commandment is, "Remember the Sabbath day, to keep
+it holy.  Six days shalt thou labour, and do all thy work:
+but the seventh day is the Sabbath of the Lord thy God: in it
+thou shalt not do any work, thou, nor thy son, nor thy
+daughter, thy manservant, nor thy maidservant, nor they
+cattle, nor thy stranger that is within thy gates.  For in
+six days the Lord made heaven and earth, the sea, and all
+that in them is, and rested the seventh day: wherefore the
+Lord blessed the Sabbath day and hallowed it."</p>
+<p id="iii-p353"><br />Topic No. 05950</p>
+<p style="font-weight:bold" id="iii-p354">Question 50. What is required in the fourth commandment?</p>
+<p id="iii-p355">A  The fourth commandment requires the keeping holy to God such
+set times as he has appointed in his Word, expressly one
+whole day in seven, to be a holy Sabbath to himself.</p>
+<p id="iii-p356"># <scripRef id="iii-p356.1" passage="Le 19:30" parsed="|Lev|19|30|0|0" osisRef="Bible:Lev.19.30">Le 19:30</scripRef> <scripRef id="iii-p356.2" passage="De 5:12" parsed="|Deut|5|12|0|0" osisRef="Bible:Deut.5.12">De 5:12</scripRef></p>
+<p id="iii-p357"><br />Topic No. 05951</p>
+<p style="font-weight:bold" id="iii-p358">Question 51. How is the Sabbath to be sanctified?</p>
+<p id="iii-p359">A  The Sabbath is to be sanctified by a holy resting all that
+day, even from such worldly employments and recreations as
+are lawful on other days,</p>
+<p id="iii-p360"># <scripRef id="iii-p360.1" passage="Le 23:3" parsed="|Lev|23|3|0|0" osisRef="Bible:Lev.23.3">Le 23:3</scripRef></p>
+<p id="iii-p361">and spending the whole time in the public and private
+exercises of God's worship,</p>
+<p id="iii-p362"># <scripRef id="iii-p362.1" passage="Ps 92:1" parsed="|Ps|92|1|0|0" osisRef="Bible:Ps.92.1">Ps 92:1</scripRef>,<scripRef passage="Ps 92:2" id="iii-p362.2" parsed="|Ps|92|2|0|0" osisRef="Bible:Ps.92.2">2</scripRef> <scripRef id="iii-p362.3" passage="Isa 58:13" parsed="|Isa|58|13|0|0" osisRef="Bible:Isa.58.13">Isa 58:13</scripRef>,<scripRef passage="Isa 58:14" id="iii-p362.4" parsed="|Isa|58|14|0|0" osisRef="Bible:Isa.58.14">14</scripRef></p>
+<p id="iii-p363">except so much as is taken up in the works of necessity and
+mercy.</p>
+<p id="iii-p364"># <scripRef id="iii-p364.1" passage="Mt 12:11" parsed="|Matt|12|11|0|0" osisRef="Bible:Matt.12.11">Mt 12:11</scripRef>,<scripRef passage="Mt 12:12" id="iii-p364.2" parsed="|Matt|12|12|0|0" osisRef="Bible:Matt.12.12">12</scripRef></p>
+<p id="iii-p365"><br />Topic No. 05952</p>
+<p style="font-weight:bold" id="iii-p366">Question 52. Which is the fifth commandment?</p>
+<p id="iii-p367">A  The fifth commandment is, "Honour thy father and thy mother:
+that thy days may be long upon the land which the Lord thy
+God giveth thee."</p>
+<p id="iii-p368"><br />Topic No. 05953</p>
+<p style="font-weight:bold" id="iii-p369">Question 53. What is required in the fifth commandment?</p>
+<p id="iii-p370">A  The fifth commandment requires the preserving the honour, and
+performing the duties belonging to every one in their various
+positions and relationships as superiors,</p>
+<p id="iii-p371"># <scripRef id="iii-p371.1" passage="Eph 5:21" parsed="|Eph|5|21|0|0" osisRef="Bible:Eph.5.21">Eph 5:21</scripRef>,<scripRef passage="Eph 5:22" id="iii-p371.2" parsed="|Eph|5|22|0|0" osisRef="Bible:Eph.5.22">22</scripRef> 6:1,5 <scripRef id="iii-p371.3" passage="Ro 13:1" parsed="|Rom|13|1|0|0" osisRef="Bible:Rom.13.1">Ro 13:1</scripRef></p>
+<p id="iii-p372">inferiors,</p>
+<p id="iii-p373"># <scripRef id="iii-p373.1" passage="Eph 6:9" parsed="|Eph|6|9|0|0" osisRef="Bible:Eph.6.9">Eph 6:9</scripRef></p>
+<p id="iii-p374">or equals.</p>
+<p id="iii-p375"># <scripRef id="iii-p375.1" passage="Ro 12:10" parsed="|Rom|12|10|0|0" osisRef="Bible:Rom.12.10">Ro 12:10</scripRef></p>
+<p id="iii-p376"><br />Topic No. 05954</p>
+<p style="font-weight:bold" id="iii-p377">Question 54. What is the reason annexed to the fifth commandment?</p>
+<p id="iii-p378">A  The reason annexed to the fifth commandment is, a promise of
+long life and prosperity -- as far as it shall serve for
+God's glory, and their own good -- to all such as keep this
+commandment.</p>
+<p id="iii-p379"># <scripRef id="iii-p379.1" passage="Eph 6:2" parsed="|Eph|6|2|0|0" osisRef="Bible:Eph.6.2">Eph 6:2</scripRef>,<scripRef passage="Eph 6:3" id="iii-p379.2" parsed="|Eph|6|3|0|0" osisRef="Bible:Eph.6.3">3</scripRef></p>
+<p id="iii-p380"><br />Topic No. 05955</p>
+<p style="font-weight:bold" id="iii-p381">Question 55. Which is the sixth commandment?</p>
+<p id="iii-p382">A  The sixth commandment is, "Thou shalt not kill."</p>
+<p id="iii-p383"><br />Topic No. 05956</p>
+<p style="font-weight:bold" id="iii-p384">Question 56. What is forbidden in the sixth commandment?</p>
+<p id="iii-p385">A  The sixth commandment forbids the taking away of our own life,</p>
+<p id="iii-p386"># <scripRef id="iii-p386.1" passage="Ac 16:28" parsed="|Acts|16|28|0|0" osisRef="Bible:Acts.16.28">Ac 16:28</scripRef></p>
+<p id="iii-p387">or the life of our neighbour unjustly,</p>
+<p id="iii-p388"># <scripRef id="iii-p388.1" passage="Ge 9:6" parsed="|Gen|9|6|0|0" osisRef="Bible:Gen.9.6">Ge 9:6</scripRef></p>
+<p id="iii-p389">or whatever tends to it.</p>
+<p id="iii-p390"># <scripRef id="iii-p390.1" passage="Pr 24:11" parsed="|Prov|24|11|0|0" osisRef="Bible:Prov.24.11">Pr 24:11</scripRef>,<scripRef passage="Pr 24:12" id="iii-p390.2" parsed="|Prov|24|12|0|0" osisRef="Bible:Prov.24.12">12</scripRef></p>
+<p id="iii-p391"><br />Topic No. 05957</p>
+<p style="font-weight:bold" id="iii-p392">Question 57. Which is the seventh commandment?</p>
+<p id="iii-p393">A  The seventh commandment is, "Thou shalt not commit adultery."</p>
+<p id="iii-p394"><br />Topic No. 05958</p>
+<p style="font-weight:bold" id="iii-p395">Question 58. What is forbidden in the seventh commandment?</p>
+<p id="iii-p396">A  The seventh commandment forbids all unchaste thoughts,</p>
+<p id="iii-p397"># <scripRef id="iii-p397.1" passage="Mt 5:28" parsed="|Matt|5|28|0|0" osisRef="Bible:Matt.5.28">Mt 5:28</scripRef> <scripRef id="iii-p397.2" passage="Col 4:6" parsed="|Col|4|6|0|0" osisRef="Bible:Col.4.6">Col 4:6</scripRef></p>
+<p id="iii-p398">words,</p>
+<p id="iii-p399"># <scripRef id="iii-p399.1" passage="Eph 5:4" parsed="|Eph|5|4|0|0" osisRef="Bible:Eph.5.4">Eph 5:4</scripRef> <scripRef id="iii-p399.2" passage="2Ti 2:22" parsed="|2Tim|2|22|0|0" osisRef="Bible:2Tim.2.22">2Ti 2:22</scripRef></p>
+<p id="iii-p400">and actions.</p>
+<p id="iii-p401"># <scripRef id="iii-p401.1" passage="Eph 5:3" parsed="|Eph|5|3|0|0" osisRef="Bible:Eph.5.3">Eph 5:3</scripRef></p>
+<p id="iii-p402"><br />Topic No. 05959</p>
+<p style="font-weight:bold" id="iii-p403">Question 59. Which is the eighth commandment?</p>
+<p id="iii-p404">A  The eighth commandment is, "Thou shalt not steal."</p>
+<p id="iii-p405"><br />Topic No. 05960</p>
+<p style="font-weight:bold" id="iii-p406">Question 60. What is forbidden in the eighth commandment?</p>
+<p id="iii-p407">A  The eighth commandment forbids whatever does or may unjustly
+hinder our own,</p>
+<p id="iii-p408"># <scripRef id="iii-p408.1" passage="1Ti 5:8" parsed="|1Tim|5|8|0|0" osisRef="Bible:1Tim.5.8">1Ti 5:8</scripRef> <scripRef id="iii-p408.2" passage="Pr 28:19" parsed="|Prov|28|19|0|0" osisRef="Bible:Prov.28.19">Pr 28:19</scripRef> 21:6</p>
+<p id="iii-p409">or our neighbour's wealth, or outward estate.</p>
+<p id="iii-p410"># <scripRef id="iii-p410.1" passage="Eph 4:28" parsed="|Eph|4|28|0|0" osisRef="Bible:Eph.4.28">Eph 4:28</scripRef></p>
+<p id="iii-p411"><br />Topic No. 05961</p>
+<p style="font-weight:bold" id="iii-p412">Question 61. Which is the ninth commandment?</p>
+<p id="iii-p413">A  The ninth commandment is, "Thou shalt not bear false witness
+against thy neighbour."</p>
+<p id="iii-p414"><br />Topic No. 05962</p>
+<p style="font-weight:bold" id="iii-p415">Question 62. What is required in the ninth commandment?</p>
+<p id="iii-p416">A  The ninth commandment requires the maintaining and promoting
+of truth between man and man,</p>
+<p id="iii-p417"># <scripRef id="iii-p417.1" passage="Zec 8:16" parsed="|Zech|8|16|0|0" osisRef="Bible:Zech.8.16">Zec 8:16</scripRef></p>
+<p id="iii-p418">and of our own,</p>
+<p id="iii-p419"># <scripRef id="iii-p419.1" passage="1Pe 3:16" parsed="|1Pet|3|16|0|0" osisRef="Bible:1Pet.3.16">1Pe 3:16</scripRef> <scripRef id="iii-p419.2" passage="Ac 25:10" parsed="|Acts|25|10|0|0" osisRef="Bible:Acts.25.10">Ac 25:10</scripRef></p>
+<p id="iii-p420">and our neighbour's good name,</p>
+<p id="iii-p421"># <scripRef id="iii-p421.1" passage="3Jo 1" parsed="|3John|1|1|0|0" osisRef="Bible:3John.1.1">3Jo 1</scripRef>:12</p>
+<p id="iii-p422">especially in witness-bearing.</p>
+<p id="iii-p423"># <scripRef id="iii-p423.1" passage="Pr 14:5" parsed="|Prov|14|5|0|0" osisRef="Bible:Prov.14.5">Pr 14:5</scripRef>,<scripRef passage="Pr 14:25" id="iii-p423.2" parsed="|Prov|14|25|0|0" osisRef="Bible:Prov.14.25">25</scripRef></p>
+<p id="iii-p424"><br />Topic No. 05963</p>
+<p style="font-weight:bold" id="iii-p425">Question 63. What is the tenth commandment?</p>
+<p id="iii-p426">A  The tenth commandment is, "Thou shalt not covet thy
+neighbour's house; thou shalt not covet thy neighbour's wife,
+nor his manservant, or his maidservant, nor his ox, nor his
+ass, nor anything that is thy neighbour's."</p>
+<p id="iii-p427"><br />Topic No. 05964</p>
+<p style="font-weight:bold" id="iii-p428">Question 64. What is forbidden in the tenth commandment?</p>
+<p id="iii-p429">A  The tenth commandment forbids all discontentment with our own
+estate,</p>
+<p id="iii-p430"># <scripRef id="iii-p430.1" passage="1Co 10:10" parsed="|1Cor|10|10|0|0" osisRef="Bible:1Cor.10.10">1Co 10:10</scripRef></p>
+<p id="iii-p431">envying or grieving at the good of our neighbour,</p>
+<p id="iii-p432"># <scripRef id="iii-p432.1" passage="Ga 5:26" parsed="|Gal|5|26|0|0" osisRef="Bible:Gal.5.26">Ga 5:26</scripRef></p>
+<p id="iii-p433">and all inordinate emotions and affections to anything that
+is his.</p>
+<p id="iii-p434"># <scripRef id="iii-p434.1" passage="Col 3:5" parsed="|Col|3|5|0|0" osisRef="Bible:Col.3.5">Col 3:5</scripRef></p>
+<p id="iii-p435"><br />Topic No. 05965</p>
+<p style="font-weight:bold" id="iii-p436">Question 65. Is any man able perfectly to keep the commandments of God?</p>
+<p id="iii-p437">A  No mere man, since the fall, is able in his life perfectly to
+keep the commandments of God,</p>
+<p id="iii-p438"># <scripRef id="iii-p438.1" passage="Ec 7:20" parsed="|Eccl|7|20|0|0" osisRef="Bible:Eccl.7.20">Ec 7:20</scripRef></p>
+<p id="iii-p439">but does daily break them in thought,</p>
+<p id="iii-p440"># <scripRef id="iii-p440.1" passage="Ge 8:21" parsed="|Gen|8|21|0|0" osisRef="Bible:Gen.8.21">Ge 8:21</scripRef></p>
+<p id="iii-p441">word,</p>
+<p id="iii-p442"># <scripRef id="iii-p442.1" passage="Jas 3:8" parsed="|Jas|3|8|0|0" osisRef="Bible:Jas.3.8">Jas 3:8</scripRef></p>
+<p id="iii-p443">and deed.</p>
+<p id="iii-p444"># <scripRef id="iii-p444.1" passage="Jas 3:2" parsed="|Jas|3|2|0|0" osisRef="Bible:Jas.3.2">Jas 3:2</scripRef></p>
+<p id="iii-p445"><br />Topic No. 05966</p>
+<p style="font-weight:bold" id="iii-p446">Question 66. Are all transgressions of the law equally heinous?</p>
+<p id="iii-p447">A  Some sins in themselves, and by reason of various aggravations,
+are more heinous in the sight of God than others.</p>
+<p id="iii-p448"># <scripRef id="iii-p448.1" passage="Joh 19:11" parsed="|John|19|11|0|0" osisRef="Bible:John.19.11">Joh 19:11</scripRef> <scripRef id="iii-p448.2" passage="1Jo 5:15" parsed="|1John|5|15|0|0" osisRef="Bible:1John.5.15">1Jo 5:15</scripRef></p>
+<p id="iii-p449"><br />Topic No. 05967</p>
+<p style="font-weight:bold" id="iii-p450">Question 67. What does every sin deserve?</p>
+<p id="iii-p451">A  Every sin deserves God's wrath and curse, both in this life
+and that which is to come.</p>
+<p id="iii-p452"># <scripRef id="iii-p452.1" passage="Eph 5:6" parsed="|Eph|5|6|0|0" osisRef="Bible:Eph.5.6">Eph 5:6</scripRef> <scripRef id="iii-p452.2" passage="Ps 11:6" parsed="|Ps|11|6|0|0" osisRef="Bible:Ps.11.6">Ps 11:6</scripRef></p>
+<p id="iii-p453"><br />Topic No. 05968</p>
+<p style="font-weight:bold" id="iii-p454">Question 68. How may we escape his wrath and curse due to us for sin?</p>
+<p id="iii-p455">A  To escape the wrath and curse of God due to us for sin, we
+must believe in the Lord Jesus Christ,</p>
+<p id="iii-p456"># <scripRef id="iii-p456.1" passage="Joh 3:16" parsed="|John|3|16|0|0" osisRef="Bible:John.3.16">Joh 3:16</scripRef></p>
+<p id="iii-p457">trusting alone to his blood and righteousness. This faith is
+attended by repentance for the past</p>
+<p id="iii-p458"># <scripRef id="iii-p458.1" passage="Ac 20:21" parsed="|Acts|20|21|0|0" osisRef="Bible:Acts.20.21">Ac 20:21</scripRef></p>
+<p id="iii-p459">and leads to holiness in the future.</p>
+<p id="iii-p460"><br />Topic No. 05969</p>
+<p style="font-weight:bold" id="iii-p461">Question 69. What is faith in Jesus Christ?</p>
+<p id="iii-p462">A  Faith in Jesus Christ is a saving grace,</p>
+<p id="iii-p463"># <scripRef id="iii-p463.1" passage="Heb 10:39" parsed="|Heb|10|39|0|0" osisRef="Bible:Heb.10.39">Heb 10:39</scripRef></p>
+<p id="iii-p464">whereby we receive,</p>
+<p id="iii-p465"># <scripRef id="iii-p465.1" passage="Joh 1:12" parsed="|John|1|12|0|0" osisRef="Bible:John.1.12">Joh 1:12</scripRef></p>
+<p id="iii-p466">and rest upon him alone for salvation,</p>
+<p id="iii-p467"># <scripRef id="iii-p467.1" passage="Php 3:9" parsed="|Phil|3|9|0|0" osisRef="Bible:Phil.3.9">Php 3:9</scripRef></p>
+<p id="iii-p468">as he is set forth in the gospel.</p>
+<p id="iii-p469"># <scripRef id="iii-p469.1" passage="Isa 33:22" parsed="|Isa|33|22|0|0" osisRef="Bible:Isa.33.22">Isa 33:22</scripRef></p>
+<p id="iii-p470"><br />Topic No. 05970</p>
+<p style="font-weight:bold" id="iii-p471">Question 70. What is repentance to life?</p>
+<p id="iii-p472">A  Repentance to life is a saving grace,</p>
+<p id="iii-p473"># <scripRef id="iii-p473.1" passage="Ac 11:18" parsed="|Acts|11|18|0|0" osisRef="Bible:Acts.11.18">Ac 11:18</scripRef></p>
+<p id="iii-p474">whereby a sinner, out of a true sense of his sins,</p>
+<p id="iii-p475"># <scripRef id="iii-p475.1" passage="Ac 2:37" parsed="|Acts|2|37|0|0" osisRef="Bible:Acts.2.37">Ac 2:37</scripRef></p>
+<p id="iii-p476">and apprehension of the mercy of God in Christ,</p>
+<p id="iii-p477"># <scripRef id="iii-p477.1" passage="Joe 2:13" parsed="|Joel|2|13|0|0" osisRef="Bible:Joel.2.13">Joe 2:13</scripRef></p>
+<p id="iii-p478">does with grief and hatred of his sin turn from it to God,</p>
+<p id="iii-p479"># <scripRef id="iii-p479.1" passage="Jer 31:18" parsed="|Jer|31|18|0|0" osisRef="Bible:Jer.31.18">Jer 31:18</scripRef>,<scripRef passage="Jer 31:19" id="iii-p479.2" parsed="|Jer|31|19|0|0" osisRef="Bible:Jer.31.19">19</scripRef></p>
+<p id="iii-p480">with full purpose to strive after new obedience.</p>
+<p id="iii-p481"># <scripRef id="iii-p481.1" passage="Ps 119:59" parsed="|Ps|119|59|0|0" osisRef="Bible:Ps.119.59">Ps 119:59</scripRef></p>
+<p id="iii-p482"><br />Topic No. 05971</p>
+<p style="font-weight:bold" id="iii-p483">Question 71. What are the outward means whereby the Holy Spirit communicates to us the benefits of redemption?</p>
+<p id="iii-p484">A  The outward and ordinary means whereby the Holy Spirit
+communicates to us the benefits of Christ's redemption, are
+the Word, by which souls are begotten to spiritual life;
+Baptism, the Lord's Supper, Prayer, and Meditation, by all
+which believers are further edified in their most holy faith.</p>
+<p id="iii-p485"># <scripRef id="iii-p485.1" passage="Ac 2:41" parsed="|Acts|2|41|0|0" osisRef="Bible:Acts.2.41">Ac 2:41</scripRef>,<scripRef passage="Ac 2:42" id="iii-p485.2" parsed="|Acts|2|42|0|0" osisRef="Bible:Acts.2.42">42</scripRef> <scripRef id="iii-p485.3" passage="Jas 1:18" parsed="|Jas|1|18|0|0" osisRef="Bible:Jas.1.18">Jas 1:18</scripRef></p>
+<p id="iii-p486"><br />Topic No. 05972</p>
+<p style="font-weight:bold" id="iii-p487">Question 72. How is the Word made effectual to salvation?</p>
+<p id="iii-p488">A  The Spirit of God makes the reading, but especially the
+preaching of the Word, an effectual means of convicting and
+converting sinners,</p>
+<p id="iii-p489"># <scripRef id="iii-p489.1" passage="Ps 19:7" parsed="|Ps|19|7|0|0" osisRef="Bible:Ps.19.7">Ps 19:7</scripRef></p>
+<p id="iii-p490">and of building them up in holiness and comfort,</p>
+<p id="iii-p491"># <scripRef id="iii-p491.1" passage="1Th 1:6" parsed="|1Thess|1|6|0|0" osisRef="Bible:1Thess.1.6">1Th 1:6</scripRef></p>
+<p id="iii-p492">through faith to salvation.</p>
+<p id="iii-p493"># <scripRef id="iii-p493.1" passage="Ro 1:16" parsed="|Rom|1|16|0|0" osisRef="Bible:Rom.1.16">Ro 1:16</scripRef></p>
+<p id="iii-p494"><br />Topic No. 05973</p>
+<p style="font-weight:bold" id="iii-p495">Question 73. How is the Word to be read and heard that it may become effectual to salvation?</p>
+<p id="iii-p496">A  That the Word may become effectual to salvation, we must
+attend to it with diligence,</p>
+<p id="iii-p497"># <scripRef id="iii-p497.1" passage="Pr 8:34" parsed="|Prov|8|34|0|0" osisRef="Bible:Prov.8.34">Pr 8:34</scripRef></p>
+<p id="iii-p498">preparation,</p>
+<p id="iii-p499"># <scripRef id="iii-p499.1" passage="1Pe 2:1" parsed="|1Pet|2|1|0|0" osisRef="Bible:1Pet.2.1">1Pe 2:1</scripRef>,<scripRef passage="1Pe 2:2" id="iii-p499.2" parsed="|1Pet|2|2|0|0" osisRef="Bible:1Pet.2.2">2</scripRef></p>
+<p id="iii-p500">and prayer,</p>
+<p id="iii-p501"># <scripRef id="iii-p501.1" passage="Ps 119:18" parsed="|Ps|119|18|0|0" osisRef="Bible:Ps.119.18">Ps 119:18</scripRef></p>
+<p id="iii-p502">receive it with faith,</p>
+<p id="iii-p503"># <scripRef id="iii-p503.1" passage="Heb 4:2" parsed="|Heb|4|2|0|0" osisRef="Bible:Heb.4.2">Heb 4:2</scripRef></p>
+<p id="iii-p504">and love,</p>
+<p id="iii-p505"># <scripRef id="iii-p505.1" passage="2Th 2:10" parsed="|2Thess|2|10|0|0" osisRef="Bible:2Thess.2.10">2Th 2:10</scripRef></p>
+<p id="iii-p506">lay it up into our hearts,</p>
+<p id="iii-p507"># <scripRef id="iii-p507.1" passage="Ps 119:11" parsed="|Ps|119|11|0|0" osisRef="Bible:Ps.119.11">Ps 119:11</scripRef></p>
+<p id="iii-p508">and practise it in our lives.</p>
+<p id="iii-p509"># <scripRef id="iii-p509.1" passage="Jas 1:25" parsed="|Jas|1|25|0|0" osisRef="Bible:Jas.1.25">Jas 1:25</scripRef></p>
+<p id="iii-p510"><br />Topic No. 05974</p>
+<p style="font-weight:bold" id="iii-p511">Question 74. How do Baptism and the Lord's Supper become spiritually helpful?</p>
+<p id="iii-p512">A  Baptism and the Lord's Supper become spiritually helpful, not
+from any virtue in them, or in him who does administer them,</p>
+<p id="iii-p513"># <scripRef id="iii-p513.1" passage="1Co 3:7" parsed="|1Cor|3|7|0|0" osisRef="Bible:1Cor.3.7">1Co 3:7</scripRef> <scripRef id="iii-p513.2" passage="1Pe 3:21" parsed="|1Pet|3|21|0|0" osisRef="Bible:1Pet.3.21">1Pe 3:21</scripRef></p>
+<p id="iii-p514">but only by the blessing of Christ,</p>
+<p id="iii-p515"># <scripRef id="iii-p515.1" passage="1Co 3:6" parsed="|1Cor|3|6|0|0" osisRef="Bible:1Cor.3.6">1Co 3:6</scripRef></p>
+<p id="iii-p516">and the working of the Spirit in those who by faith receive them.</p>
+<p id="iii-p517"># <scripRef id="iii-p517.1" passage="1Co 12:13" parsed="|1Cor|12|13|0|0" osisRef="Bible:1Cor.12.13">1Co 12:13</scripRef></p>
+<p id="iii-p518"><br />Topic No. 05975</p>
+<p style="font-weight:bold" id="iii-p519">Question 75. What is Baptism?</p>
+<p id="iii-p520">A  Baptism is an ordinance of the New Testament, instituted by
+Jesus Christ,</p>
+<p id="iii-p521"># <scripRef id="iii-p521.1" passage="Mt 28:19" parsed="|Matt|28|19|0|0" osisRef="Bible:Matt.28.19">Mt 28:19</scripRef></p>
+<p id="iii-p522">to be to the person baptised a sign of his fellowship with
+him, in his death, and burial, and resurrection,</p>
+<p id="iii-p523"># <scripRef id="iii-p523.1" passage="Ro 6:3" parsed="|Rom|6|3|0|0" osisRef="Bible:Rom.6.3">Ro 6:3</scripRef> <scripRef id="iii-p523.2" passage="Col 2:12" parsed="|Col|2|12|0|0" osisRef="Bible:Col.2.12">Col 2:12</scripRef></p>
+<p id="iii-p524">of his being ingrafted into him,</p>
+<p id="iii-p525"># <scripRef id="iii-p525.1" passage="Ga 3:27" parsed="|Gal|3|27|0|0" osisRef="Bible:Gal.3.27">Ga 3:27</scripRef></p>
+<p id="iii-p526">of remission of sins,</p>
+<p id="iii-p527"># <scripRef id="iii-p527.1" passage="Mr 1:4" parsed="|Mark|1|4|0|0" osisRef="Bible:Mark.1.4">Mr 1:4</scripRef> <scripRef id="iii-p527.2" passage="Ac 22:16" parsed="|Acts|22|16|0|0" osisRef="Bible:Acts.22.16">Ac 22:16</scripRef></p>
+<p id="iii-p528">and of his giving up himself to God through Jesus Christ, to
+live and walk in newness of life.</p>
+<p id="iii-p529"># <scripRef id="iii-p529.1" passage="Ro 6:4" parsed="|Rom|6|4|0|0" osisRef="Bible:Rom.6.4">Ro 6:4</scripRef>,<scripRef passage="Ro 6:5" id="iii-p529.2" parsed="|Rom|6|5|0|0" osisRef="Bible:Rom.6.5">5</scripRef></p>
+<p id="iii-p530"><br />Topic No. 05976</p>
+<p style="font-weight:bold" id="iii-p531">Question 76. To whom is Baptism to be administered?</p>
+<p id="iii-p532">A  Baptism is to be administered to all those who actually
+profess repentance towards God,</p>
+<p id="iii-p533"># <scripRef id="iii-p533.1" passage="Ac 2:38" parsed="|Acts|2|38|0|0" osisRef="Bible:Acts.2.38">Ac 2:38</scripRef> <scripRef id="iii-p533.2" passage="Mt 3:6" parsed="|Matt|3|6|0|0" osisRef="Bible:Matt.3.6">Mt 3:6</scripRef> <scripRef id="iii-p533.3" passage="Mr 16:16" parsed="|Mark|16|16|0|0" osisRef="Bible:Mark.16.16">Mr 16:16</scripRef> <scripRef id="iii-p533.4" passage="Ac 8:12" parsed="|Acts|8|12|0|0" osisRef="Bible:Acts.8.12">Ac 8:12</scripRef>,<scripRef passage="Ac 8:36" id="iii-p533.5" parsed="|Acts|8|36|0|0" osisRef="Bible:Acts.8.36">36</scripRef>,<scripRef passage="Ac 8:37" id="iii-p533.6" parsed="|Acts|8|37|0|0" osisRef="Bible:Acts.8.37">37</scripRef> 10:47,48</p>
+<p id="iii-p534">and faith in our Lord Jesus Christ, and to none other.</p>
+<p id="iii-p535"><br />Topic No. 05977</p>
+<p style="font-weight:bold" id="iii-p536">Question 77. Are the infants of such as are professing to be baptised?</p>
+<p id="iii-p537">A  The infants of such as are professing believers are not to be
+baptised, because there is neither command nor example in the
+Holy Scriptures for their baptism.</p>
+<p id="iii-p538"># <scripRef id="iii-p538.1" passage="Ex 23:13" parsed="|Exod|23|13|0|0" osisRef="Bible:Exod.23.13">Ex 23:13</scripRef> <scripRef id="iii-p538.2" passage="Pr 30:6" parsed="|Prov|30|6|0|0" osisRef="Bible:Prov.30.6">Pr 30:6</scripRef></p>
+<p id="iii-p539"><br />Topic No. 05978</p>
+<p style="font-weight:bold" id="iii-p540">Question 78. How is baptism rightly administered?</p>
+<p id="iii-p541">A  Baptism is rightly administered by immersion, or dipping the
+whole body of the person in water,</p>
+<p id="iii-p542"># <scripRef id="iii-p542.1" passage="Mt 3:16" parsed="|Matt|3|16|0|0" osisRef="Bible:Matt.3.16">Mt 3:16</scripRef> <scripRef id="iii-p542.2" passage="Joh 3:23" parsed="|John|3|23|0|0" osisRef="Bible:John.3.23">Joh 3:23</scripRef></p>
+<p id="iii-p543">in the name of the Father, and of the Son, and of the Holy
+Spirit, according to Christ's institution, and the practice
+of the apostles,</p>
+<p id="iii-p544"># <scripRef id="iii-p544.1" passage="Mt 28:19" parsed="|Matt|28|19|0|0" osisRef="Bible:Matt.28.19">Mt 28:19</scripRef>,<scripRef passage="Mt 28:20" id="iii-p544.2" parsed="|Matt|28|20|0|0" osisRef="Bible:Matt.28.20">20</scripRef></p>
+<p id="iii-p545">and not by sprinkling or pouring of water, or dipping some
+part of the body, after the tradition of men.</p>
+<p id="iii-p546"># <scripRef id="iii-p546.1" passage="Joh 4:1" parsed="|John|4|1|0|0" osisRef="Bible:John.4.1">Joh 4:1</scripRef>,<scripRef passage="Joh 4:2" id="iii-p546.2" parsed="|John|4|2|0|0" osisRef="Bible:John.4.2">2</scripRef> <scripRef id="iii-p546.3" passage="Ac 8:38" parsed="|Acts|8|38|0|0" osisRef="Bible:Acts.8.38">Ac 8:38</scripRef>,<scripRef passage="Ac 8:39" id="iii-p546.4" parsed="|Acts|8|39|0|0" osisRef="Bible:Acts.8.39">39</scripRef></p>
+<p id="iii-p547"><br />Topic No. 05979</p>
+<p style="font-weight:bold" id="iii-p548">Question 79. What is the duty of such as are rightly baptized?</p>
+<p id="iii-p549">A  It is the duty of such as are rightly baptized, to give up
+themselves to some particular and orderly Church of Jesus Christ,</p>
+<p id="iii-p550"># <scripRef id="iii-p550.1" passage="Ac 2:47" parsed="|Acts|2|47|0|0" osisRef="Bible:Acts.2.47">Ac 2:47</scripRef> <scripRef id="iii-p550.2" passage="Ac 9:26" parsed="|Acts|9|26|0|0" osisRef="Bible:Acts.9.26">Ac 9:26</scripRef> <scripRef id="iii-p550.3" passage="1Pe 2:5" parsed="|1Pet|2|5|0|0" osisRef="Bible:1Pet.2.5">1Pe 2:5</scripRef></p>
+<p id="iii-p551">that they may walk in all the commandments and ordinances of
+the Lord blameless.</p>
+<p id="iii-p552"># <scripRef id="iii-p552.1" passage="Lu 1:6" parsed="|Luke|1|6|0|0" osisRef="Bible:Luke.1.6">Lu 1:6</scripRef></p>
+<p id="iii-p553"><br />Topic No. 05980</p>
+<p style="font-weight:bold" id="iii-p554">Question 80. What is the Lord's Supper?</p>
+<p id="iii-p555">A  The Lord's Supper is an ordinance of the New Testament,
+instituted by Jesus Christ; wherein, by giving and receiving
+bread and wine, according to his appointment, his death is
+shown forth,</p>
+<p id="iii-p556"># <scripRef id="iii-p556.1" passage="1Co 11:23-26" parsed="|1Cor|11|23|11|26" osisRef="Bible:1Cor.11.23-1Cor.11.26">1Co 11:23-26</scripRef></p>
+<p id="iii-p557">and the worthy receivers are, not after a corporeal and
+carnal manner, but by faith, made partakers of his body and
+blood, with all his benefits, to their spiritual nourishment,
+and growth in grace.</p>
+<p id="iii-p558"># <scripRef id="iii-p558.1" passage="1Co 10:16" parsed="|1Cor|10|16|0|0" osisRef="Bible:1Cor.10.16">1Co 10:16</scripRef></p>
+<p id="iii-p559"><br />Topic No. 05981</p>
+<p style="font-weight:bold" id="iii-p560">Question 81. What is required to the worthy receiving of the Lord's Supper?</p>
+<p id="iii-p561">A  It is required of them who would worthily partake of the
+Lord's Supper, that they examine themselves of their
+knowledge to discern the Lord's body,</p>
+<p id="iii-p562"># <scripRef id="iii-p562.1" passage="1Co 11:28" parsed="|1Cor|11|28|0|0" osisRef="Bible:1Cor.11.28">1Co 11:28</scripRef>,<scripRef passage="1Co 11:29" id="iii-p562.2" parsed="|1Cor|11|29|0|0" osisRef="Bible:1Cor.11.29">29</scripRef></p>
+<p id="iii-p563">of their faith to feed upon him,</p>
+<p id="iii-p564"># <scripRef id="iii-p564.1" passage="2Co 13:5" parsed="|2Cor|13|5|0|0" osisRef="Bible:2Cor.13.5">2Co 13:5</scripRef></p>
+<p id="iii-p565">of their repentance,</p>
+<p id="iii-p566"># <scripRef id="iii-p566.1" passage="1Co 11:31" parsed="|1Cor|11|31|0|0" osisRef="Bible:1Cor.11.31">1Co 11:31</scripRef></p>
+<p id="iii-p567">love,</p>
+<p id="iii-p568"># <scripRef id="iii-p568.1" passage="1Co 11:18-20" parsed="|1Cor|11|18|11|20" osisRef="Bible:1Cor.11.18-1Cor.11.20">1Co 11:18-20</scripRef></p>
+<p id="iii-p569">and new obedience,</p>
+<p id="iii-p570"># <scripRef id="iii-p570.1" passage="1Co 5:8" parsed="|1Cor|5|8|0|0" osisRef="Bible:1Cor.5.8">1Co 5:8</scripRef></p>
+<p id="iii-p571">lest coming unworthily, they eat and drink judgment to themselves.</p>
+<p id="iii-p572"># <scripRef id="iii-p572.1" passage="1Co 11:27-29" parsed="|1Cor|11|27|11|29" osisRef="Bible:1Cor.11.27-1Cor.11.29">1Co 11:27-29</scripRef></p>
+<p id="iii-p573"><br />Topic No. 05982</p>
+<p style="font-weight:bold" id="iii-p574">Question 82. What is meant by the words, "until he come," which are used by the apostle Paul in reference to the Lord's Supper?</p>
+<p id="iii-p575">A  They plainly teach us that our Lord Jesus Christ will come a
+second time; which is the joy and hope of all believers.</p>
+<p id="iii-p576"># <scripRef id="iii-p576.1" passage="Ac 1:11" parsed="|Acts|1|11|0|0" osisRef="Bible:Acts.1.11">Ac 1:11</scripRef> <scripRef id="iii-p576.2" passage="1Th 4:16" parsed="|1Thess|4|16|0|0" osisRef="Bible:1Thess.4.16">1Th 4:16</scripRef></p>
+
+
+
+</div1>
+  </ThML.body>
+</ThML>

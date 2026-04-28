@@ -1,0 +1,27 @@
+# Crawler state files (local only)
+**/.ccel_state.json
+**/.ccel_state.json.bak
+**/.ccel_crawl.log
+**/.monergism_state.json
+**/.monergism_state.json.bak
+**/.gutenberg_state.json
+**/.gutenberg_state.json.bak
+**/.archive_org_state.json
+**/.archive_org_state.json.bak
+**/.wikisource_state.json
+**/.wikisource_state.json.bak
+
+# Partial downloads
+**/*.part
+
+# Monergism (personal use only - not for public repos)
+references/monergism/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/

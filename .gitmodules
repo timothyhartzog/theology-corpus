@@ -1,0 +1,6 @@
+[submodule "references/theographic-bible-metadata"]
+	path = references/theographic-bible-metadata
+	url = https://github.com/timothyhartzog/theographic-bible-metadata
+[submodule "references/theographic-web"]
+	path = references/theographic-web
+	url = https://github.com/timothyhartzog/theographic-web

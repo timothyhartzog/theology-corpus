@@ -25,3 +25,6 @@ references/monergism/
 __pycache__/
 *.pyc
 .venv/
+
+# Claude Code
+.claude/

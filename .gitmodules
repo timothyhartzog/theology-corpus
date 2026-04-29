@@ -25,3 +25,6 @@
 [submodule "lexicons/lexica"]
 	path = lexicons/lexica
 	url = https://github.com/timothyhartzog/lexica
+[submodule "texts/greek-nt/macula-greek-full"]
+	path = texts/greek-nt/macula-greek-full
+	url = https://github.com/timothyhartzog/macula-greek

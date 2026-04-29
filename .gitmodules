@@ -28,3 +28,6 @@
 [submodule "texts/greek-nt/macula-greek-full"]
 	path = texts/greek-nt/macula-greek-full
 	url = https://github.com/timothyhartzog/macula-greek
+[submodule "texts/hebrew/macula-hebrew-full"]
+	path = texts/hebrew/macula-hebrew-full
+	url = https://github.com/timothyhartzog/macula-hebrew

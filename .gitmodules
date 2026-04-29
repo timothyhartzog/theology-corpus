@@ -13,3 +13,15 @@
 [submodule "lexicons/hebrew/hebrew-lexicon"]
 	path = lexicons/hebrew/hebrew-lexicon
 	url = https://github.com/timothyhartzog/HebrewLexicon
+[submodule "data/stepbible-data"]
+	path = data/stepbible-data
+	url = https://github.com/timothyhartzog/STEPBible-Data
+[submodule "texts/greek-nt/byzantine-majority"]
+	path = texts/greek-nt/byzantine-majority
+	url = https://github.com/timothyhartzog/byzantine-majority-text
+[submodule "texts/greek-nt/greek-nt-resources"]
+	path = texts/greek-nt/greek-nt-resources
+	url = https://github.com/timothyhartzog/greek-new-testament
+[submodule "lexicons/lexica"]
+	path = lexicons/lexica
+	url = https://github.com/timothyhartzog/lexica

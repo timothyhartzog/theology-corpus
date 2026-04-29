@@ -4,3 +4,12 @@
 [submodule "references/theographic-web"]
 	path = references/theographic-web
 	url = https://github.com/timothyhartzog/theographic-web
+[submodule "references/awesome-bible-dev-resources"]
+	path = references/awesome-bible-dev-resources
+	url = https://github.com/timothyhartzog/awesome-bible-developer-resources
+[submodule "lexicons/greek/greek-resources-repo"]
+	path = lexicons/greek/greek-resources-repo
+	url = https://github.com/timothyhartzog/GreekResources
+[submodule "lexicons/hebrew/hebrew-lexicon"]
+	path = lexicons/hebrew/hebrew-lexicon
+	url = https://github.com/timothyhartzog/HebrewLexicon

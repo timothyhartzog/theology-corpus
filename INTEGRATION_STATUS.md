@@ -1,143 +1,54 @@
-# Theology Corpus - Integration Status
+# Theology Corpus — Integration Status
 
-**Last Updated:** 2026-04-29 (auto-generated)
-
-## Summary
-
-Your theology-corpus repository now integrates **26+ theology and Biblical studies repositories** from your GitHub account.
-
-## Integrated Repositories (✅ Complete)
-
-### Core Bible Texts
-- ✅ Nestle1904 — 1904 Nestle Greek NT edition
-- ✅ sblgnt — SBL Greek NT with morphology
-- ✅ OpenGNT — Open Greek NT Project
-- ✅ morphhb — Morphological Hebrew Bible
-- ✅ byzantine-majority-text — Byzantine Greek text variant
-- ✅ greek-new-testament — Additional Greek NT resources
-
-### Lexicons & Language Resources
-- ✅ Abbott-Smith — Manual Greek Lexicon
-- ✅ strongs — Strong's Hebrew & Greek dictionaries
-- ✅ GreekResources — Septuagint and Greek resources
-- ✅ HebrewLexicon — BDB with Strong's links
-- ✅ lexica — Comprehensive lexicon text files
-- ✅ LSJLogeion — Liddell-Scott-Jones lexicon (Logeion)
-
-### Frameworks & Linguistic Data
-- ✅ text-fabric — Text format and API framework
-- ✅ openscriptures — Open Scriptures framework
-- ✅ proiel-treebank — Ancient Indo-European treebank
-
-### Data & Resources
-- ✅ STEPBible-Data — Structured Bible data (CC BY 4.0)
-- ✅ theographic-bible-metadata — Biblical people/places/periods KG
-- ✅ theographic-web — Linked encyclopedia of biblical resources
-- ✅ awesome-bible-developer-resources — Curated dev tools list
-- ✅ greek-mappings — Greek text mapping resources
-
-### Reference Materials
-- ✅ 285+ theological works from Project Gutenberg (EPUB)
-- ✅ 179+ CCEL ThML XML documents
-- ✅ Complete CCEL corpus collection
-
-## In-Progress (⏳ Cloning)
-
-The following large syntax tree repositories are currently cloning in the background:
-- ⏳ **macula-greek** — Syntax trees & morphology for Greek Bible (~1GB+)
-- ⏳ **macula-hebrew** — Syntax trees & morphology for Hebrew Bible (~500MB+)
-
-**Note:** These are large repositories (multi-gigabyte) and may take 10-30 minutes to clone depending on your connection speed. They will be automatically added as submodules once cloning completes.
-
-## Directory Structure
-
-```
-theology-corpus/
-├── texts/
-│   ├── greek-nt/
-│   │   ├── nestle-1904/          ✅
-│   │   ├── sblgnt/               ✅
-│   │   ├── opengnt/              ✅
-│   │   ├── byzantine-majority/   ✅
-│   │   ├── greek-nt-resources/   ✅
-│   │   ├── macula-greek-full/    ⏳
-│   │   └── macula/               (data only)
-│   └── hebrew/
-│       ├── morphhb/              ✅
-│       ├── macula-hebrew-full/   ⏳
-│       └── macula/               (data only)
-├── lexicons/
-│   ├── greek/
-│   │   ├── abbott-smith/         ✅
-│   │   ├── greek-resources-repo/ ✅
-│   │   ├── lsj-unicode/          ✅
-│   │   ├── lsj-logeion/          ⏳
-│   │   └── perseus-lexica/       (data only)
-│   ├── hebrew/
-│   │   ├── hebrew-lexicon/       ✅
-│   │   └── bdb/                  (data only)
-│   ├── strongs/                  ✅
-│   └── lexica/                   ✅
-├── frameworks/
-│   ├── text-fabric/              ✅
-│   └── openscriptures/           (data only)
-├── references/
-│   ├── theographic-bible-metadata/ ✅
-│   ├── theographic-web/          ✅
-│   ├── awesome-bible-dev-resources/ ✅
-│   ├── greek-mappings/           (data only)
-│   ├── proiel-treebank/          ✅
-│   ├── gutenberg/                (285+ theology works)
-│   └── awesome-bible/            (data only)
-├── data/
-│   ├── stepbible-data/           ✅
-│   └── stepbible/                (data only)
-└── CCEL/
-    ├── (179+ ThML XML works)
-```
-
-## Statistics
-
-- **Total Integrated Repositories:** 26+
-- **Total Submodules:** 20+
-- **Total Data Files:** 285+ theological works + 179+ CCEL documents
-- **Total Size:** ~1GB+ (excluding binary indices and unpacked data)
-
-## Next Steps
-
-1. **Wait for macula repos to finish cloning** (if not yet complete)
-2. **Commit the final submodules** once cloning finishes
-3. **Initialize submodules on first clone:**
-   ```bash
-   git clone https://github.com/timothyhartzog/theology-corpus.git
-   cd theology-corpus
-   git submodule update --init --recursive
-   ```
-
-## Cloning with Shallow Copies
-
-For faster initial setup, you can clone with shallow copies of large repos:
-
-```bash
-git clone --recurse-submodules --depth 1 \
-  https://github.com/timothyhartzog/theology-corpus.git
-```
-
-## Related Repositories (Not Yet Integrated)
-
-These repos are available but not yet integrated (integration on demand):
-- Management-Python
-- timothyhartzog.github.io
-- project-nomad
-- Other non-theology projects
-
-## Contributing
-
-To add more theology repositories:
-1. Add as submodule: `git submodule add <repo-url> <path>`
-2. Update THEOLOGY_REPOS.md with new entry
-3. Commit and push: `git commit -m "..."`
+**Last Updated:** 2026-11-17 (`v2026.11.0`)
+**Status:** Repaired — zero gitlinks/submodules; checksummed CCEL & Project Gutenberg collections ready for sparse-checkout import by [`ruralpeds/theograph`](https://github.com/ruralpeds/theograph).
 
 ---
 
-**View all theology repos:** See `THEOLOGY_REPOS.md` for complete inventory.
+## What Changed in `v2026.11.0`
+
+Prior to `v2026.11.0`, this repository contained **30 gitlinks** (`160000` tree entries), only **11** of which were registered in `.gitmodules`. Running `git submodule update --init` failed, and cloning left unmapped text and lexicon directories (`texts/hebrew/morphhb`, `texts/greek-nt/sblgnt`, `texts/greek-nt/nestle-1904`, `texts/greek-nt/byzantine`, `texts/greek-nt/opengnt`, `lexicons/greek/abbott-smith`, etc.) empty.
+
+In `v2026.11.0` (Prerequisite P2 of `THEOGRAPH_FIX_SPRINT_PLAN.md`):
+
+1. **Archived all 30 former gitlinks** in [`references/UPSTREAM_CANDIDATES.md`](references/UPSTREAM_CANDIDATES.md) with their exact former paths, 40-character commit SHAs, canonical upstream GitHub URLs, license notes, and `theograph` integration status.
+2. **Removed all 30 gitlinks and `.gitmodules`** (`git ls-files --stage | awk '$1 == "160000"'` is now empty).
+3. **Generated [`references/MANIFEST.tsv`](references/MANIFEST.tsv)** recording exact byte sizes, SHA-256 checksums, collection identifiers, canonical source URLs, and license notes for all **367** files stored in this repository.
+4. **Documented CCEL and Project Gutenberg license boundaries** for public-repository hosting and downstream ingestion.
+
+---
+
+## What Is Stored in `timothyhartzog/theology-corpus`
+
+Only the files unique to this repository are stored here:
+
+| Path | Description | Count / Size |
+|---|---|---|
+| `references/ccel/authors/<author>/<work>.xml` | CCEL Theological Markup Language (ThML) XML editions | 179 files (526,548,552 bytes / 502.16 MiB) |
+| `references/gutenberg/<Author>/pg<id>.epub` | Project Gutenberg theological EPUB editions | 188 files (119,984,100 bytes / 114.43 MiB) |
+| `references/MANIFEST.tsv` | Deterministic UTF-8 TSV manifest (`path`, `bytes`, `sha256`, `collection`, `source_url`, `license_note`) | 367 file rows + 1 header row |
+| `references/UPSTREAM_CANDIDATES.md` | Complete record of all 30 removed gitlinks and candidate pins for `theograph` Phases 06/07 | 30 former gitlinks (20 unique commits) |
+
+---
+
+## How `ruralpeds/theograph` Integrates With This Repository
+
+`ruralpeds/theograph` uses `data/SOURCES.yaml` + `scripts/fetch-sources.sh` as the **single source of truth** for all external data:
+
+1. **Direct Upstream Fetching for Biblical & Lexical Repos:**
+   `ruralpeds/theograph` does **not** rely on submodules inside `theology-corpus`. Instead, `data/SOURCES.yaml` pins each upstream biblical text and lexicon repository directly at the same immutable commit SHAs (`openscriptures/morphhb` @ `3d15126fb1...`, `biblicalhumanities/Nestle1904` @ `713f28a3b7...`, `LogosBible/SBLGNT` @ `c4d241a9c1...`, `byztxt/byzantine-majority-text` @ `27a45ff1b7...`, `STEPBible/STEPBible-Data` @ `b99716b0cd...`, `eliranwong/OpenGNT` @ `0029589ccc...`, `openscriptures/strongs` @ `0acd2f251c...`, `translatable-exegetical-tools/Abbott-Smith` @ `8c00cb2447...`, and `theographic-bible-metadata` @ `2bd4da0d24...`).
+   Additional upstream repos formerly linked here—including `Clear-Bible/macula-greek`, `Clear-Bible/macula-hebrew`, `helmadik/LSJLogeion` (`lsj-unicode`), `PerseusDL/lexica` (`perseus-lexica`), `openscriptures/HebrewLexicon` (`bdb`), `annotation/text-fabric`, and `proiel/proiel-treebank`—are cataloged with their exact 40-char SHAs in [`references/UPSTREAM_CANDIDATES.md`](references/UPSTREAM_CANDIDATES.md) for `THEOGRAPH_BUILD_PLAN.md` Phases 06 and 07.
+
+2. **Sparse Checkout of `theology-corpus` (`ccel-thml` and `gutenberg-epub`):**
+   `scripts/fetch-sources.sh` fetches `timothyhartzog/theology-corpus` at the pinned commit for `v2026.11.0` into `${CORPUS_PATH}` using sparse checkout (`references/ccel`, `references/gutenberg`, `references/MANIFEST.tsv`), and then populates upstream biblical/lexical checkouts alongside it without gitlink conflicts.
+
+---
+
+## Licensing Notes for Public Hosting & Downstream Redistribution
+
+- **`ccel-thml` (`references/ccel/`):**
+  `Public-Domain-US text; CCEL ThML markup non-commercial/educational per CCEL terms (verify per-work status)`
+  While most underlying historical works in CCEL are in the US public domain, CCEL claims copyright in its electronic ThML editions, `<scripRef>` markup, and staff descriptions (`https://ccel.org/about/copyright.html`). Personal, educational, and non-commercial use is permitted free of charge; **commercial redistribution of CCEL's ThML markup requires permission from CCEL** (and individual files should be checked for any third-party publisher copyright notices). Note that `timothyhartzog/theology-corpus` is a public repository.
+- **`gutenberg-epub` (`references/gutenberg/`):**
+  `Public-Domain-US + Project Gutenberg License`
+  Underlying texts are in the US public domain; redistribution bearing the Project Gutenberg name/headers is governed by the Project Gutenberg License (`https://www.gutenberg.org/policy/license.html`).
